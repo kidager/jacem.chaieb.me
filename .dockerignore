@@ -1,0 +1,16 @@
+node_modules
+.github
+.docker
+.git
+.env
+.gitattributes
+.gitignore
+docker-compose*
+Makefile
+README.md
+.eslintrc.js
+.pre-commit-config.yaml
+.prettierrc
+.stylelintrc.json
+*.code-workspace
+jest.config.js
