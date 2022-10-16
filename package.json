@@ -5,7 +5,7 @@
   "repository": "github:kidager/jacem.chaieb.me",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "rm -rf /tmp/nitro && nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
