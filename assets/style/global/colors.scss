@@ -1,6 +1,4 @@
-$primary: #49240F;
-$secondary: #E4A79D;
-$backgroundColor: #fcfcfc;
+@use "sass:map";
 
 $blue: #007bff;
 $indigo: #6610f2;
@@ -23,3 +21,109 @@ $warning: #ffc107;
 $danger: #dc3545;
 $light: #f8f9fa;
 $dark: #343a40;
+
+// ---
+
+// src: https://ui.lumapps.com/css/color
+// src: https://github.com/mrmlnc/material-color/blob/master/material-color.scss
+
+// Grey
+$grey-list: (
+  "base": #9e9e9e,
+  "50":   #fafafa,
+  "100":  #f5f5f5,
+  "200":  #eeeeee,
+  "300":  #e0e0e0,
+  "400":  #bdbdbd,
+  "500":  #9e9e9e,
+  "600":  #757575,
+  "700":  #616161,
+  "800":  #424242,
+  "900":  #212121,
+);
+$grey:     map.get($grey-list, "base");
+$grey-50:  map.get($grey-list, "50");
+$grey-100: map.get($grey-list, "100");
+$grey-200: map.get($grey-list, "200");
+$grey-300: map.get($grey-list, "300");
+$grey-400: map.get($grey-list, "400");
+$grey-500: map.get($grey-list, "500");
+$grey-600: map.get($grey-list, "600");
+$grey-700: map.get($grey-list, "700");
+$grey-800: map.get($grey-list, "800");
+$grey-900: map.get($grey-list, "900");
+
+// Deep orange
+$deep-orange-list: (
+  "base": #ff5722,
+  "50":   #fbe9e7,
+  "100":  #ffccbc,
+  "200":  #ffab91,
+  "300":  #ff8a65,
+  "400":  #ff7043,
+  "500":  #ff5722,
+  "600":  #f4511e,
+  "700":  #e64a19,
+  "800":  #d84315,
+  "900":  #bf360c,
+  "a100": #ff9e80,
+  "a200": #ff6e40,
+  "a400": #ff3d00,
+  "a700": #dd2c00
+);
+$deep-orange:      map.get($deep-orange-list, "base");
+$deep-orange-50:   map.get($deep-orange-list, "50");
+$deep-orange-100:  map.get($deep-orange-list, "100");
+$deep-orange-200:  map.get($deep-orange-list, "200");
+$deep-orange-300:  map.get($deep-orange-list, "300");
+$deep-orange-400:  map.get($deep-orange-list, "400");
+$deep-orange-500:  map.get($deep-orange-list, "500");
+$deep-orange-600:  map.get($deep-orange-list, "600");
+$deep-orange-700:  map.get($deep-orange-list, "700");
+$deep-orange-800:  map.get($deep-orange-list, "800");
+$deep-orange-900:  map.get($deep-orange-list, "900");
+$deep-orange-a100: map.get($deep-orange-list, "a100");
+$deep-orange-a200: map.get($deep-orange-list, "a200");
+$deep-orange-a400: map.get($deep-orange-list, "a400");
+$deep-orange-a700: map.get($deep-orange-list, "a700");
+
+// Blue grey
+$blue-grey-list: (
+  "base": #607d8b,
+  "50":   #eceff1,
+  "100":  #cfd8dc,
+  "200":  #b0bec5,
+  "300":  #90a4ae,
+  "400":  #78909c,
+  "500":  #607d8b,
+  "600":  #546e7a,
+  "700":  #455a64,
+  "800":  #37474f,
+  "900":  #263238,
+);
+$blue-grey:     map.get($blue-grey-list, "base");
+$blue-grey-50:  map.get($blue-grey-list, "50");
+$blue-grey-100: map.get($blue-grey-list, "100");
+$blue-grey-200: map.get($blue-grey-list, "200");
+$blue-grey-300: map.get($blue-grey-list, "300");
+$blue-grey-400: map.get($blue-grey-list, "400");
+$blue-grey-500: map.get($blue-grey-list, "500");
+$blue-grey-600: map.get($blue-grey-list, "600");
+$blue-grey-700: map.get($blue-grey-list, "700");
+$blue-grey-800: map.get($blue-grey-list, "800");
+$blue-grey-900: map.get($blue-grey-list, "900");
+
+
+// Black
+$black-list: (
+  "base": #000
+);
+$black: map.get($black-list, "base");
+
+// App colors
+$primary: $deep-orange;
+$secondary: $deep-orange-100;
+$backgroundColor: #fcfcfc;
+$social-icons-color: $blue-grey-600;
+$links-color: $blue-grey-600;
+$text-color: $grey-900;

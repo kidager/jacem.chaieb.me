@@ -29,15 +29,18 @@
 
 body {
   margin: 0; // 1
-  font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
+  font-family: $font-family-sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.15;
-  color: #212529;
+  color: $text-color;
   text-align: left;
   background-color: $backgroundColor; // 2
   -webkit-text-size-adjust: 100%; // 3
-  -webkit-tap-highlight-color: rgba(#000000, 0); // 4
+  -webkit-tap-highlight-color: rgba($black, 0); // 4
+  ::-moz-selection { background: $primary; color: $secondary; }
+  ::selection { background: $primary; color: $secondary; }
+
 }
 
 
@@ -201,15 +204,15 @@ figure {
 a, a:-webkit-any-link, a:hover, a:visited, a:link {
   text-decoration: none;
   background-color: transparent;
-  color: #526d7a;
+  color: $links-color;
 }
 
 // Images and content
 
-// img,
-// svg {
-//   vertical-align: middle;
-// }
+img,
+svg {
+  vertical-align: middle;
+}
 
 
 // Tables

@@ -1,27 +1,23 @@
 <template>
   <img
-    src="~assets/img/jacem.chaieb.jpg"
+    src="~assets/img/jacem.chaieb.512.webp"
     alt="jacem chaieb"
-    class="rounded-circle text-center headshot"
-    height="200"
-    width="200"
-  />
+    class="text-center"
+  >
 </template>
 
-<style scoped>
-.headshot {
-    width: 200px;
-    height: 200px;
-    border: 1px solid #eee;
-}
-.text-center {
-    text-align: center!important;
-}
-.rounded-circle {
-    border-radius: 50%!important;
-}
+<style lang="scss" scoped>
+$imgSize: min(400px, 50vw);
+
 img {
-    vertical-align: middle;
-    border-style: none;
+  width: $imgSize;
+  height: $imgSize;
+
+  border-radius: 50%!important;
+  border: 0.25px solid $text-color;
+  // border: 1px solid $black;
+  // border-style: none;
+
+  vertical-align: middle;
 }
 </style>

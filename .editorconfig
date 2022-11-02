@@ -17,6 +17,9 @@ indent_size = 2
 [*.{js,json,vue,ts}]
 indent_size = 2
 
+[*.{css,scss,sass}]
+indent_size = 2
+
 [Makefile]
 indent_style = tab
 indent_size = tab
