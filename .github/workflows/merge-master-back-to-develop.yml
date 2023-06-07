@@ -15,7 +15,6 @@ jobs:
 
       - name: Fetch SHA of last commits
         run: |
-          git fetch --no-tags --depth=1 origin develop
           echo "MASTER_LATEST_SHA=$(git rev-parse origin/master)"   >> $GITHUB_ENV
           echo "DEVELOP_LATEST_SHA=$(git rev-parse origin/develop)" >> $GITHUB_ENV
 
@@ -27,11 +26,16 @@ jobs:
       - name: Merge master back to dev
         if: ${{ env.MASTER_LATEST_SHA != env.DEVELOP_LATEST_SHA }}
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git fetch --unshallow
 
           git checkout master
           git checkout develop
+
           git pull
+
           git merge --ff-only master || { echo "Could not fast-forward develop to master"; exit 1; }
+
           git push origin develop
