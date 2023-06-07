@@ -1,5 +1,5 @@
 name: Deploy to BETA
-'on':
+on:
   workflow_dispatch:
   push:
     branches:
