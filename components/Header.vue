@@ -2,7 +2,7 @@
   <div>
     <header class="text-center">
       <ProfilePicture />
-      <Title />
+      <FullName />
     </header>
   </div>
 </template>

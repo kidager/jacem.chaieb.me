@@ -1,0 +1,39 @@
+name: Merge `master` back to `develop`
+
+on:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  merge_master_back_to_develop:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: 'master'
+
+      - name: Fetch SHA of last commits
+        run: |
+          git fetch --no-tags --depth=1 origin develop
+          echo "MASTER_LATEST_SHA=$(git rev-parse origin/master)"   >> $GITHUB_ENV
+          echo "DEVELOP_LATEST_SHA=$(git rev-parse origin/develop)" >> $GITHUB_ENV
+
+      - name: Set Git config
+        if: ${{ env.MASTER_LATEST_SHA != env.DEVELOP_LATEST_SHA }}
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Actions"
+
+      - name: Nothing to do
+        if: ${{ env.MASTER_LATEST_SHA == env.DEVELOP_LATEST_SHA }}
+        run: |
+          echo "Nothing to do 🎉"
+
+      - name: Merge master back to dev
+        if: ${{ env.MASTER_LATEST_SHA != env.DEVELOP_LATEST_SHA }}
+        run: |
+          git checkout develop
+          git pull
+          git merge --ff-only master || {echo "Could not fast-forward develop to master!"; exit 1;}
+          git push origin develop
