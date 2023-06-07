@@ -35,5 +35,5 @@ jobs:
         run: |
           git checkout develop
           git pull
-          git merge --ff-only master || {echo "Could not fast-forward develop to master!"; exit 1;}
+          git merge --ff-only master || { echo "Could not fast-forward develop to master!"; exit 1; }
           git push origin develop
