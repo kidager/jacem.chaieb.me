@@ -19,12 +19,6 @@ jobs:
           echo "MASTER_LATEST_SHA=$(git rev-parse origin/master)"   >> $GITHUB_ENV
           echo "DEVELOP_LATEST_SHA=$(git rev-parse origin/develop)" >> $GITHUB_ENV
 
-      - name: Set Git config
-        if: ${{ env.MASTER_LATEST_SHA != env.DEVELOP_LATEST_SHA }}
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "Github Actions"
-
       - name: Nothing to do
         if: ${{ env.MASTER_LATEST_SHA == env.DEVELOP_LATEST_SHA }}
         run: |
@@ -33,7 +27,11 @@ jobs:
       - name: Merge master back to dev
         if: ${{ env.MASTER_LATEST_SHA != env.DEVELOP_LATEST_SHA }}
         run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          git checkout master
           git checkout develop
           git pull
-          git merge --ff-only master || { echo "Could not fast-forward develop to master!"; exit 1; }
+          git merge --ff-only master || { echo "Could not fast-forward develop to master"; exit 1; }
           git push origin develop
