@@ -34,6 +34,6 @@
     "sass": "^1.63.6",
     "stylelint": "^14.16.1",
     "stylelint-config-recommended-scss": "^7.0.0",
-    "typescript": "^4.8.4"
+    "typescript": "^5.1.6"
   }
 }
