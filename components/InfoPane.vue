@@ -5,7 +5,7 @@
       FullStack Web Developer
     </h3>
     <h4 class="description">
-      “Remember us for we, too, have lived, loved and laughed.”
+      ✨ Be a light in a too often dim world ✨
     </h4>
   </section>
 </template>
