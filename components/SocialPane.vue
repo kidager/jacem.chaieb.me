@@ -1,5 +1,4 @@
 <script>
-import { Buffer } from 'buffer'
 
 export default {
   data() { return {
@@ -45,9 +44,7 @@ export default {
         icon: ['fab', 'telegram'],
       },
       {
-        url: Buffer.from('bWFpbHRvOg==', 'base64').toString() // mailto:
-          + Buffer.from('ai5jb250YWN0QGNoYWllYi5tZQ==', 'base64').toString() // email address
-          + '?subject=[Contact] Jacem Chaieb Website',
+        url: 'https://jc.tn/c-email',
         label: 'Email',
         icon: ['fas', 'envelope']
       },
