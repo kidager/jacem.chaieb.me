@@ -16,7 +16,6 @@ div.container {
   margin-right: auto;
   margin-left: auto;
 
-  overflow: auto;
   padding: 0 15px;
 
   @media screen and (min-width: 576px) {
