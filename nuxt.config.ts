@@ -16,7 +16,8 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
       title: 'Jacem Chaieb',
       meta: [
-        { name: 'theme-color', content: '#ffffff' },
+        { name: 'theme-color', media: '(prefers-color-scheme: light)', content: '#eff1f5' },
+        { name: 'theme-color', media: '(prefers-color-scheme: dark)', content: '#1e1e2e' },
         { name: 'viewport', content: 'width=device-width,initial-scale=1' },
         { name: 'description', content: 'The personal website of Jacem Chaieb, an IT engineer currently focusing on PHP and architecture.' },
         { name: 'keywords', content: 'jacem,chaieb,developer,hugo,minimalist,blog,enis,kidager,jchaieb,spark-it,bulldozer,kebili,tunis,sfax,tunisia,paris,france,cairo,egypt' }
