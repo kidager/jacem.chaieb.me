@@ -14,9 +14,10 @@ img {
   height: $imgSize;
 
   border-radius: 50%!important;
-  border: 0.25px solid $text-color;
-  // border: 1px solid $black;
-  // border-style: none;
+  border: 0.25px solid $borders;
+  .dark-theme & {
+    border: 0.25px solid $dark-borders;
+  }
 
   vertical-align: middle;
 }

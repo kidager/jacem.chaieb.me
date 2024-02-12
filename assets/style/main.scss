@@ -14,5 +14,9 @@ body {
   color: $text-color;
   width: auto;
   margin: 0;
-  background-color: $backgroundColor;
+  background-color: $background-color;
+  .dark-theme & {
+    background-color: $dark-background-color;
+    color: $dark-text-color;
+  }
 }

@@ -41,12 +41,18 @@ export default defineNuxtConfig({
       }
     }
   },
-  // theme: {
-  //   dark: true,
-  //   colors: {
-  //     primary: '#ff0000'
-  //   }
-  // },
+  modules: [
+    '@nuxtjs/color-mode'
+  ],
+  colorMode: {
+    preference: 'system',
+    fallback: 'light',
+    hid: 'website-color-theme-script',
+    globalName: '__WEBSITE_COLOR_THEME__',
+    componentName: 'ColorScheme',
+    classSuffix: '-theme',
+    storageKey: 'website-color-theme'
+  },
   server: {
     hmr: {
       url: 'https://jacem.dev.localhost',

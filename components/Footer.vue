@@ -18,13 +18,19 @@
 footer {
   height: 50px;
   margin: 1vh 0;
-  color: $grey-500;
+  color: $social-icons-color;
+  .dark-theme & {
+    color: $dark-social-icons-color;
+  }
 
   hr {
     margin: 1rem 0 1rem;
 
     border: 0;
-    border-top: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba($borders, .75);
+    .dark-theme & {
+      border-top: 1px solid rgba($dark-borders, .75);
+    }
     background-color: transparent;
   }
 

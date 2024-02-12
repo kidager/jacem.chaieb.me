@@ -1,5 +1,6 @@
 <template>
   <div>
+    <ColorSwitcher />
     <header class="text-center">
       <ProfilePicture />
       <FullName />

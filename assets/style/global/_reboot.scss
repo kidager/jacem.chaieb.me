@@ -35,11 +35,15 @@ body {
   line-height: 1.15;
   color: $text-color;
   text-align: left;
-  background-color: $backgroundColor; // 2
+  background-color: $background-color; // 2
+  .dark-theme & {
+    background-color: $dark-background-color;
+    color: $dark-text-color;
+  }
   -webkit-text-size-adjust: 100%; // 3
   -webkit-tap-highlight-color: rgba($black, 0); // 4
-  ::-moz-selection { background: $primary; color: $secondary; }
-  ::selection { background: $primary; color: $secondary; }
+  ::-moz-selection { background: $selection-background; color: $selection-text; }
+  ::selection { background: $selection-background; color: $selection-text; }
 
 }
 
@@ -201,10 +205,11 @@ figure {
   margin: 0 0 1rem;
 }
 
-a, a:-webkit-any-link, a:hover, a:visited, a:link {
-  text-decoration: none;
+a, a:link, a:visited, a:hover
+{
   background-color: transparent;
   color: $links-color;
+  text-decoration: none;
 }
 
 // Images and content
