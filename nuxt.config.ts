@@ -20,7 +20,7 @@ export default defineNuxtConfig({
         { name: 'theme-color', media: '(prefers-color-scheme: dark)', content: '#1e1e2e' },
         { name: 'viewport', content: 'width=device-width,initial-scale=1' },
         { name: 'description', content: 'The personal website of Jacem Chaieb, an IT engineer currently focusing on PHP and architecture.' },
-        { name: 'keywords', content: 'jacem,chaieb,developer,hugo,minimalist,blog,enis,kidager,jchaieb,spark-it,bulldozer,kebili,tunis,sfax,tunisia,paris,france,cairo,egypt' }
+        { name: 'keywords', content: 'jacem,chaieb,developer,laravel,php,hugo,minimalist,blog,enis,kidager,jchaieb,zenchef,resengo,formitable,ankor,ankorstore,spark-it,bulldozer,kebili,tunis,sfax,tunisia,paris,france,cairo,egypt' }
       ],
     }
   },
