@@ -7,7 +7,7 @@
 </template>
 
 <style lang="scss" scoped>
-$imgSize: min(400px, 50vw);
+$imgSize: min(300px, 50vw);
 
 img {
   width: $imgSize;
