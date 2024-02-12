@@ -23,12 +23,18 @@ section {
   .intro {
     font-family: $font-family-serif;
     font-size: 1.75rem;
-    color: $grey-600;
+    color: $text-color-subtext-0;
+    .dark-theme & {
+      color: $dark-text-color-subtext-0;
+    }
   }
 
   .description {
     font-size: 1rem;
-    color: $grey-500;
+    color: $text-color-subtext-1;
+    .dark-theme & {
+      color: $dark-text-color-subtext-1;
+    }
   }
 }
 </style>

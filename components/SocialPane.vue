@@ -72,6 +72,9 @@ section {
 
   a svg {
     color: $social-icons-color;
+    .dark-theme & {
+      color: $dark-social-icons-color;
+    }
     width: 1em;
     margin: 0 5px;
   }

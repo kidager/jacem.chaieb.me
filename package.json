@@ -21,6 +21,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.6"
   },
   "devDependencies": {
+    "@nuxtjs/color-mode": "^3.3.2",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.56.0",

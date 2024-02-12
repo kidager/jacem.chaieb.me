@@ -1,5 +1,10 @@
 @use "sass:map";
 
+@import "themes/catppuccin/01-latte";
+@import "themes/catppuccin/02-frappe";
+@import "themes/catppuccin/03-macchiato";
+@import "themes/catppuccin/04-mocha";
+
 $blue: #007bff;
 $indigo: #6610f2;
 $purple: #6f42c1;
@@ -121,9 +126,21 @@ $black-list: (
 $black: map.get($black-list, "base");
 
 // App colors
-$primary: $deep-orange;
-$secondary: $deep-orange-100;
-$backgroundColor: #fcfcfc;
-$social-icons-color: $blue-grey-600;
-$links-color: $blue-grey-600;
-$text-color: $grey-900;
+$selection-background: $deep-orange;
+$selection-text: $deep-orange-100;
+$links-color: $deep-orange;
+
+$background-color: $color-catppuccin-latte-base;
+$text-color: $color-catppuccin-latte-text;
+$text-color-subtext-0: $color-catppuccin-latte-subtext0;
+$text-color-subtext-1: $color-catppuccin-latte-subtext1;
+$social-icons-color: $color-catppuccin-latte-overlay1;
+$borders: $color-catppuccin-latte-surface0;
+
+// Dark Mode
+$dark-background-color: $color-catppuccin-mocha-base;
+$dark-text-color: $color-catppuccin-mocha-text;
+$dark-text-color-subtext-0: $color-catppuccin-mocha-subtext0;
+$dark-text-color-subtext-1: $color-catppuccin-mocha-subtext1;
+$dark-social-icons-color: $color-catppuccin-mocha-overlay1;
+$dark-borders: $color-catppuccin-mocha-surface0;
