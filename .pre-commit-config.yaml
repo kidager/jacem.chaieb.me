@@ -9,6 +9,12 @@ repos:
       stages: [commit-msg]
       args: [] # list of types to allow e.g. [feat, fix, ci, chore, test]
 
+
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.6.26
+    hooks:
+    - id: actionlint
+
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
