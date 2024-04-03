@@ -6,3 +6,8 @@ updates:
     open-pull-requests-limit: 10
     schedule:
       interval: daily
+    groups:
+      minor-versions:
+        update-types:
+          - "minor"
+          - "patch"
