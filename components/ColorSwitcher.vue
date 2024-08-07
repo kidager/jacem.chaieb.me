@@ -1,40 +1,28 @@
-<script>
-import IconDark from '@/components/icons/IconDark'
-import IconLight from '@/components/icons/IconLight'
-import IconSystem from '@/components/icons/IconSystem'
+<script setup>
+import IconDark from '@/components/icons/theme-switcher/IconDark'
+import IconLight from '@/components/icons/theme-switcher/IconLight'
+import IconSystem from '@/components/icons/theme-switcher/IconSystem'
 
-export default {
-  methods: {
-    currentThemeIcon() {
-      switch (useColorMode().preference) {
-        case "dark":
-          return IconDark;
-        case "light":
-          return IconLight;
-        default:
-          return IconSystem;
-      }
-    },
-    nextTheme() {
-      switch (useColorMode().preference) {
-        case "system":
-          return "light";
-        case "light":
-          return "dark";
-        default:
-          return "system";
-      }
-    }
-  }
+const colorModes = ['system', 'light', 'dark']
+const components = {
+  system: IconSystem,
+  light: IconLight,
+  dark: IconDark
+}
+
+const nextColorMode = (currentColor) => {
+  const index = colorModes.findIndex((element) => element == (currentColor ?? 'system'))
+
+  return colorModes[(index + 1) % colorModes.length]
 }
 </script>
 
 <template>
   <div
     class="color-switcher"
-    @click="$colorMode.preference = nextTheme()"
+    @click="$colorMode.preference = nextColorMode($colorMode.preference)"
   >
-    <component :is="currentThemeIcon()" />
+    <component :is="components[$colorMode.preference]" />
   </div>
 </template>
 
@@ -53,12 +41,12 @@ export default {
   background-color: $borders;
   border: 2px solid $borders;
   color: $social-icons-color;
+  transition: all 0.1s ease;
+
   .dark-theme & {
     background-color: $dark-borders;
     border: 2px solid $dark-borders;
     color: $dark-social-icons-color;
   }
-
-  transition: all 0.1s ease;
 }
 </style>

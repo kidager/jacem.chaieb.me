@@ -1,0 +1,17 @@
+services:
+  jacem-chaieb-me:
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: ./.docker/Dockerfile
+    environment:
+      - NODE_ENV=development
+      - HOST=0.0.0.0
+      - PORT=3000
+    command: [ 'yarn', 'dev' ]
+    volumes:
+      - ./:/home/node/app
+      - node_modules:/home/node/app/node_modules
+
+volumes:
+  node_modules:
