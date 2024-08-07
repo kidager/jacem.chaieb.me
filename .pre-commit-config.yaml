@@ -37,26 +37,18 @@ repos:
       - id: shellcheck
         args: ["--severity=warning"]
 
+
   - repo: local
     hooks:
       - id: eslint
-        name: eslint
-        entry: npx eslint
-        language: node
+        name: ES Lint
+        entry: just docker-options="-T" eslint
+        language: system
         types: [file]
         types_or: [javascript, jsx, ts, tsx, vue]
-        args: [
-            "--quiet",
-            "--fix",
-            "--cache",
-            "--cache-location",
-            ".eslintcache",
-            "--cache-strategy",
-            "content",
-        ]
+
       - id: stylelint
-        name: stylelint
-        entry: npx stylelint
-        language: node
+        name: Style Lint
+        entry: just docker-options="-T" stylelint
+        language: system
         files: ^.*\.(css|scss|sass|vue)$
-        args: ["--quiet", "--fix"]

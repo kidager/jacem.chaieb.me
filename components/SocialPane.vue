@@ -1,53 +1,22 @@
 <script>
+import IconEmail from '@/components/icons/social/IconEmail.vue'
+import IconGithub from '@/components/icons/social/IconGithub.vue'
+import IconGPGKey from '@/components/icons/social/IconGPGKey.vue'
+import IconKeybase from '@/components/icons/social/IconKeybase.vue'
+import IconLinkedIn from '@/components/icons/social/IconLinkedIn.vue'
+import IconMedium from '@/components/icons/social/IconMedium.vue'
+import IconTelegram from '@/components/icons/social/IconTelegram.vue'
 
 export default {
   data() { return {
     links: [
-      {
-        url: 'https://jc.tn/tw',
-        label: 'Twitter',
-        icon: ['fab', 'twitter'],
-      },
-      {
-        url: 'https://jc.tn/gh',
-        label: 'Github',
-        icon: ['fab', 'github'],
-      },
-      {
-        url: 'https://jc.tn/ig',
-        label: 'Instagram',
-        icon: ['fab', 'instagram'],
-      },
-      {
-        url: 'https://jc.tn/li',
-        label: 'LinkedIn',
-        icon: ['fab', 'linkedin'],
-      },
-      {
-        url: 'https://jc.tn/md',
-        label: 'Medium',
-        icon: ['fab', 'medium'],
-      },
-      {
-        url: 'https://jc.tn/pgp',
-        label: 'GPGKey',
-        icon: ['fa', 'key'],
-      },
-      {
-        url: 'https://keybase.io/kidager',
-        label: 'Keybase',
-        icon: ['fab', 'keybase'],
-      },
-      {
-        url: 'https://jc.tn/tg',
-        label: 'Telegram',
-        icon: ['fab', 'telegram'],
-      },
-      {
-        url: 'https://jc.tn/c-email',
-        label: 'Email',
-        icon: ['fas', 'envelope']
-      },
+      {icon: IconGithub,   label: 'Github',   url: 'https://jc.tn/gh'},
+      {icon: IconLinkedIn, label: 'LinkedIn', url: 'https://jc.tn/li'},
+      {icon: IconMedium,   label: 'Medium',   url: 'https://jc.tn/md'},
+      {icon: IconGPGKey,   label: 'GPGKey',   url: 'https://jc.tn/pgp'},
+      {icon: IconKeybase,  label: 'Keybase',  url: 'https://keybase.io/kidager'},
+      {icon: IconTelegram, label: 'Telegram', url: 'https://jc.tn/tg'},
+      {icon: IconEmail,    label: 'Email',    url: 'https://jc.tn/c-email'},
     ],
   }},
 }
@@ -62,7 +31,7 @@ export default {
       :href="link.url"
       :aria-label="link.label"
       target="_blank"
-    ><font-awesome-icon :icon="link.icon" /></a>
+    ><component :is="{...link.icon}" /></a>
   </section>
 </template>
 
@@ -72,11 +41,13 @@ section {
 
   a svg {
     color: $social-icons-color;
+    height: 1.5em;
+    width: auto;
+    margin: 0 5px;
+
     .dark-theme & {
       color: $dark-social-icons-color;
     }
-    width: 1em;
-    margin: 0 5px;
   }
 }
 </style>

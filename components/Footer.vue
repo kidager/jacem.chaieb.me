@@ -3,12 +3,13 @@
     <footer class="text-center">
       <hr>
       <h6>
-        Built with
-        <span>&#128150;</span>
-        using <a
+        Built with <span>&#128150;</span> using <a
           target="_blank"
-          href="https://v3.nuxtjs.org/"
-        >Nuxt</a>.
+          href="https://v3.nuxtjs.org"
+        >Nuxt</a>. Icons from <a
+          target="_blank"
+          href="https://iconify.design"
+        >Iconify</a>.
       </h6>
     </footer>
   </div>
@@ -19,19 +20,20 @@ footer {
   height: 50px;
   margin: 1vh 0;
   color: $social-icons-color;
-  .dark-theme & {
-    color: $dark-social-icons-color;
-  }
-
   hr {
     margin: 1rem 0 1rem;
 
     border: 0;
     border-top: 1px solid rgba($borders, .75);
+    background-color: transparent;
+
     .dark-theme & {
       border-top: 1px solid rgba($dark-borders, .75);
     }
-    background-color: transparent;
+  }
+
+  .dark-theme & {
+    color: $dark-social-icons-color;
   }
 
   h6 {

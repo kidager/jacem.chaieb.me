@@ -15,10 +15,10 @@ img {
 
   border-radius: 50%!important;
   border: 0.25px solid $borders;
+  vertical-align: middle;
+
   .dark-theme & {
     border: 0.25px solid $dark-borders;
   }
-
-  vertical-align: middle;
 }
 </style>
