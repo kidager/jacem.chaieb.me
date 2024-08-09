@@ -20,6 +20,9 @@ export default [
     {
         ignores: [
             "**/*.d.ts",
+            "dist/**/*",
+            ".output/**/*",
+            ".nuxt/**/*",
             "eslint.config.mjs"
         ],
     },
