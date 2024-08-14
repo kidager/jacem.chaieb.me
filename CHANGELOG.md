@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.10](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.9...v1.1.10) (2024-08-14)
+
+
+### Bug Fixes
+
+* env variable ([592aac6](https://github.com/kidager/jacem.chaieb.me/commit/592aac6f2420a9ace6985ccb530ef1a652583eec))
+
 ## [1.1.9](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.8...v1.1.9) (2024-08-14)
 
 
