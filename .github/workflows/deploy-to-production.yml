@@ -1,27 +1,27 @@
-name: Deploy to BETA
+name: Deploy to production
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - develop
+      - main
 
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     concurrency:
-      group: beta-${{ github.ref }}
+      group: prod-${{ github.ref }}
       cancel-in-progress: true
     steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
-      - uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4.0.1
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+      - uses: actions/setup-node@1e60f620b9541d16bece96c5465dc8ee9832be0b # v4.0.3
         with:
           node-version: 20
       - run: yarn install
       - run: yarn generate
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+      - uses: FirebaseExtended/action-hosting-deploy@0cbcac4740c2bfb00d632f0b863b57713124eb5a #v0.9.0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JACEM_CHAIEB }}
           projectId: jacem-chaieb
-          channelId: beta
+          channelId: live
