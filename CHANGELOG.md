@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.0...v1.1.1) (2024-08-14)
+
+
+### Bug Fixes
+
+* add missing permissions ([69e5e03](https://github.com/kidager/jacem.chaieb.me/commit/69e5e0319475f26b6d453a361029ec29291e128e))
+
 ## [1.1.0](https://github.com/kidager/jacem.chaieb.me/compare/v1.0.0...v1.1.0) (2024-08-14)
 
 
