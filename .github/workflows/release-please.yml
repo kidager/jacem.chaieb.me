@@ -65,6 +65,8 @@ jobs:
         with:
           name: build-${{ needs.release-please.outputs.tag_name }}-${{ matrix.platform }}.tar
           path: ./.output/public
+      - id: upload-artifact-to-release
+        run: gh release upload ${{ needs.release-please.outputs.tag_name }} build-${{ needs.release-please.outputs.tag_name }}-${{ matrix.platform }}.tar
 
   # Deployment job
   deploy-firebase:
