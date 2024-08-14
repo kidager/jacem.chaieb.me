@@ -53,7 +53,10 @@ jobs:
         id: upload-artifact
         with:
           name: ${{ env.ARTIFACT_NAME }}
-          path: ./.output/public/
+          path: |
+            ./.output/public/
+            firebase.json
+            .firebaserc
           if-no-files-found: error
       - run: |
           curl -sSL \
