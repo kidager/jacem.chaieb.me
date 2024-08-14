@@ -108,7 +108,7 @@ jobs:
       - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
       - run: |
           GITHUB_REPO_NAME="$(echo "${GITHUB_REPOSITORY}" | awk -F'/' '{print $2}')"
-          echo "NUXT_APP_BASE_URL=/${GITHUB_REPO_NAME}/" >> "$GITHUB_OUTPUT"
+          echo "NUXT_APP_BASE_URL=/${GITHUB_REPO_NAME}/" >> "$GITHUB_ENV"
       - run: yarn install
       - run: yarn run generate --preset github_pages
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
