@@ -23,7 +23,6 @@ jobs:
         with:
           token: ${{ secrets.PAT_TOKEN }}
           release-type: simple
-          include-v-in-tag: true
 
   # The following jobs are executed only if a release is created
   build:
@@ -61,10 +60,14 @@ jobs:
           echo "NUXT_APP_BASE_URL=/${GITHUB_REPO_NAME}/" >> "$GITHUB_OUTPUT"
           echo "generate_cmd_suffix=--preset github_pages" >> "$GITHUB_OUTPUT"
       - run: yarn run generate ${{ env.generate_cmd_suffix || '' }}
-      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
+      - uses: actions/upload-artifact@834a144ee995460fba8ed112a2fc961b36a5ec5a # v4.3.6
         with:
           name: build-${{ needs.release-please.outputs.tag_name }}-${{ matrix.platform }}.tar
-          path: ./.output/public
+          path: ./.output/public/
+          if-no-files-found: error
+      - uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 #v4.1.8
+        with:
+          name: build-${{ needs.release-please.outputs.tag_name }}-${{ matrix.platform }}.tar
       - id: upload-artifact-to-release
         env:
           GH_TOKEN: ${{ github.TOKEN }}
