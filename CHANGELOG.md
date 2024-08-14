@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.4...v1.1.5) (2024-08-14)
+
+
+### Bug Fixes
+
+* debug what's going on with artifacts ([d5df93e](https://github.com/kidager/jacem.chaieb.me/commit/d5df93ef5e73d269cbd906ee56342657a4050e5d))
+
 ## [1.1.4](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.3...v1.1.4) (2024-08-14)
 
 
