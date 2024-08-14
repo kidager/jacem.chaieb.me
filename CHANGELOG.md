@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.8](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.7...v1.1.8) (2024-08-14)
+
+
+### Bug Fixes
+
+* different deployment jobs ([799b590](https://github.com/kidager/jacem.chaieb.me/commit/799b5908caca2f9f3b1057f69953cd73e7267eb1))
+
 ## [1.1.7](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.6...v1.1.7) (2024-08-14)
 
 
