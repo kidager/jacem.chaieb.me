@@ -40,5 +40,5 @@ yarn *args='':
 
 # Enter in a container shell
 [no-exit-message]
-sh container='jacem-chaieb-me' binary='bash':
+sh container='jacem-chaieb-me' binary='sh':
     docker compose exec -it {{container}} {{binary}}
