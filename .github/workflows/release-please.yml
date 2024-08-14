@@ -69,7 +69,11 @@ jobs:
           name: ${{ env.ARTIFACT_NAME }}
           path: ./.output/public/
           if-no-files-found: error
-      - run: curl -sSL -o "${{ env.ARTIFACT_NAME }}.zip" "${{ steps.upload-artifact.outputs.artifact-url }}"
+      - run: |
+          curl -sSL \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -o "${{ env.ARTIFACT_NAME }}.zip" \
+            "${{ steps.upload-artifact.outputs.artifact-url }}"
       - run: gh release upload ${{ needs.release-please.outputs.tag_name }} ${{ env.ARTIFACT_NAME }}.zip
         env:
           GH_TOKEN: ${{ github.TOKEN }}
