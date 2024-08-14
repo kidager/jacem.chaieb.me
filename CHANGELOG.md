@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.7](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.6...v1.1.7) (2024-08-14)
+
+
+### Bug Fixes
+
+* artifacts download auth ([7ce652a](https://github.com/kidager/jacem.chaieb.me/commit/7ce652a6091163513c69265cd4f8d5d82e2957a1))
+
 ## [1.1.6](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.5...v1.1.6) (2024-08-14)
 
 
