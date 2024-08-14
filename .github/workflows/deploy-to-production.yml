@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 20
       - run: yarn install
-      - run: yarn generate
+      - run: yarn run generate
       - uses: FirebaseExtended/action-hosting-deploy@0cbcac4740c2bfb00d632f0b863b57713124eb5a #v0.9.0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
