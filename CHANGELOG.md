@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.3...v1.1.4) (2024-08-14)
+
+
+### Bug Fixes
+
+* artifact extensiofix: artifact extension ([2dc7469](https://github.com/kidager/jacem.chaieb.me/commit/2dc7469872c8ac792d378641608b2194549c49c4))
+
 ## [1.1.3](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.2...v1.1.3) (2024-08-14)
 
 
