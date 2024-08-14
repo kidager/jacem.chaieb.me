@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - ci/some-tweaks
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -25,9 +26,11 @@ jobs:
         with:
           node-version: 20
           cache: yarn
+      - id: prepare-env-vars
+        run: |
+          GITHUB_REPO_NAME="$(echo "${GITHUB_REPOSITORY}" | awk -F'/' '{print $2}')"
+          echo "github_repo_name=${GITHUB_REPO_NAME}" >> "$GITHUB_OUTPUT"
       - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
-        with:
-          static_site_generator: nuxt
       - uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4.0.2
         with:
           path: |
@@ -37,7 +40,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nuxt-build-
       - run: yarn install
-      - run: npx nuxt build --preset github_pages
+      - run: |
+          NUXT_APP_BASE_URL=${{ steps.prepare-env-vars.outputs.github_repo_name }} \
+          yarn run generate
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
         with:
           path: ./.output/public
