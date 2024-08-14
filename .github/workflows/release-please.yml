@@ -77,7 +77,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.TOKEN }}
           ARTIFACT_FULL_PATH: ${{ steps.download-artifact.outputs.download-path }}/${{ env.ARTIFACT_NAME }}.zip
-        run: gh release upload ${{ needs.release-please.outputs.tag_name }} ${{ env.ARTIFACT_FULL_PATH }}
+        run: |
+          echo "------------------------------------"
+          ls -al .
+          echo "------------------------------------"
+          ls -al ${{ steps.download-artifact.outputs.download-path }}
+          echo "------------------------------------"
+          echo "gh release upload ${{ needs.release-please.outputs.tag_name }} ${{ env.ARTIFACT_FULL_PATH }}"
 
   # Deployment job
   deploy-firebase:
