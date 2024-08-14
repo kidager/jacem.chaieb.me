@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.9](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.8...v1.1.9) (2024-08-14)
+
+
+### Bug Fixes
+
+* firebase artifact files ([8f23252](https://github.com/kidager/jacem.chaieb.me/commit/8f23252881212c9730b0797cbbba11d72e9216e9))
+
 ## [1.1.8](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.7...v1.1.8) (2024-08-14)
 
 
