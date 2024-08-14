@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/kidager/jacem.chaieb.me/compare/v1.0.0...v1.1.0) (2024-08-14)
+
+
+### Features
+
+* upload artifacts to release ([379bdae](https://github.com/kidager/jacem.chaieb.me/commit/379bdaea05cbd4ddb54c8dd2eeb85bf813d9ad58))
+
+
+### Bug Fixes
+
+* github actions permissions ([b606393](https://github.com/kidager/jacem.chaieb.me/commit/b60639383afc9ed241ee4aaf2a27842a6c782c7a))
+
 ## 1.0.0 (2024-08-14)
 
 
