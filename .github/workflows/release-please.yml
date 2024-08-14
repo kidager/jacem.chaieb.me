@@ -30,10 +30,10 @@ jobs:
     needs: release-please
     if: ${{ needs.release-please.outputs.release_created }}
     env:
-      ARTIFACT_NAME: build-${{ needs.release-please.outputs.tag_name }}-${{ matrix.platform }}.tar
+      ARTIFACT_NAME: build-${{ needs.release-please.outputs.tag_name }}-${{ matrix.platform }}
     outputs:
-      artifact-name-firebase: build-${{ needs.release-please.outputs.tag_name }}-firebase.tar
-      artifact-name-github-pages: build-${{ needs.release-please.outputs.tag_name }}-github-pages.tar
+      artifact-name-firebase: build-${{ needs.release-please.outputs.tag_name }}-firebase
+      artifact-name-github-pages: build-${{ needs.release-please.outputs.tag_name }}-github-pages
     strategy:
       fail-fast: false
       matrix:
@@ -76,7 +76,7 @@ jobs:
       - id: upload-artifact-to-release
         env:
           GH_TOKEN: ${{ github.TOKEN }}
-          ARTIFACT_FULL_PATH: ${{ steps.download-artifact.outputs.download-path }}/${{ env.ARTIFACT_NAME }}
+          ARTIFACT_FULL_PATH: ${{ steps.download-artifact.outputs.download-path }}/${{ env.ARTIFACT_NAME }}.zip
         run: gh release upload ${{ needs.release-please.outputs.tag_name }} ${{ env.ARTIFACT_FULL_PATH }}
 
   # Deployment job
