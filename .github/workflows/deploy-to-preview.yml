@@ -34,6 +34,7 @@ jobs:
       - uses: actions/upload-artifact@834a144ee995460fba8ed112a2fc961b36a5ec5a # v4.3.6
         id: upload-artifact
         with:
+          name: preview-${{ github.run_id }}
           path: |
             ./.output/public/
             firebase.json
@@ -49,7 +50,9 @@ jobs:
     if: ${{ github.actor != 'dependabot[bot]' && github.event.pull_request.head.repo.full_name == github.repository }}
     steps:
       - uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
-      - run: ls -alR .
+        with:
+          name: preview-${{ github.run_id }}
+          path: .
       - uses: FirebaseExtended/action-hosting-deploy@0cbcac4740c2bfb00d632f0b863b57713124eb5a #v0.9.0
         id: deployment-firebase
         with:
