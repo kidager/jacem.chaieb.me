@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.10...v1.2.0) (2024-08-15)
+
+
+### Features
+
+* add env for preview deployments + separate build and deploy ([1576332](https://github.com/kidager/jacem.chaieb.me/commit/157633261bf3be3462eb30a94184ff1e5382da1e))
+
+
+### Bug Fixes
+
+* downloading and uploading artifacts ([5b70f11](https://github.com/kidager/jacem.chaieb.me/commit/5b70f11d0e94439f398f5a39c8fc9807e55b67d0))
+
 ## [1.1.10](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.9...v1.1.10) (2024-08-14)
 
 
