@@ -30,7 +30,7 @@ jobs:
     needs: release-please
     if: ${{ needs.release-please.outputs.release_created }}
     env:
-      ARTIFACT_NAME: build-${{ needs.release-please.outputs.tag_name }}-firebase
+      ARTIFACT_NAME: jacem-chaieb-me-${{ needs.release-please.outputs.tag_name }}-firebase
     outputs:
       artifact-name: ${{ env.ARTIFACT_NAME }}
     steps:
@@ -74,7 +74,7 @@ jobs:
     needs: build-firebase
     environment:
       name: production
-      url: ${{ steps.deployment-firebase.outputs.details_url }}
+      url: https://jacem.chaieb.me
     steps:
       - uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
         with:
@@ -94,7 +94,7 @@ jobs:
     needs: release-please
     if: ${{ needs.release-please.outputs.release_created }}
     env:
-      ARTIFACT_NAME: build-${{ needs.release-please.outputs.tag_name }}-github-pages
+      ARTIFACT_NAME: jacem-chaieb-me-${{ needs.release-please.outputs.tag_name }}-github-pages
     outputs:
       artifact-name: ${{ env.ARTIFACT_NAME }}
     steps:
