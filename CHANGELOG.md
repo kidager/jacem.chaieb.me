@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/kidager/jacem.chaieb.me/compare/v1.2.1...v1.2.2) (2024-08-15)
+
+
+### Bug Fixes
+
+* prod env url and rename artifacts ([d0b5b53](https://github.com/kidager/jacem.chaieb.me/commit/d0b5b533a6582a212993cff32f5f489fe24abf93))
+
 ## [1.2.1](https://github.com/kidager/jacem.chaieb.me/compare/v1.2.0...v1.2.1) (2024-08-15)
 
 
