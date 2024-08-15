@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.1](https://github.com/kidager/jacem.chaieb.me/compare/v1.2.0...v1.2.1) (2024-08-15)
+
+
+### Bug Fixes
+
+* debug preview deploy ([b772c78](https://github.com/kidager/jacem.chaieb.me/commit/b772c78c7092c6e994eb9604413900494eb90a72))
+* preview artifact path ([9b49270](https://github.com/kidager/jacem.chaieb.me/commit/9b492709ed385b1d0cdcfe51d56df3a9779d18fe))
+* preview download artifact ([98c9cc8](https://github.com/kidager/jacem.chaieb.me/commit/98c9cc8d60a36ec9769610d2b478083e2bbb9ffc))
+
 ## [1.2.0](https://github.com/kidager/jacem.chaieb.me/compare/v1.1.10...v1.2.0) (2024-08-15)
 
 
