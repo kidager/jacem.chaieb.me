@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/kidager/jacem.chaieb.me/compare/v1.2.2...v1.2.3) (2024-08-20)
+
+
+### Bug Fixes
+
+* do not build preview on dependabot PRs ([169ded2](https://github.com/kidager/jacem.chaieb.me/commit/169ded226dd3d88194547089902dc16017aada9b))
+
 ## [1.2.2](https://github.com/kidager/jacem.chaieb.me/compare/v1.2.1...v1.2.2) (2024-08-15)
 
 
