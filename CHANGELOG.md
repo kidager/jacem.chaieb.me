@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.2.4](https://github.com/kidager/jacem.chaieb.me/compare/v1.2.3...v1.2.4) (2024-09-17)
+
+
+### Miscellaneous Chores
+
+* add custom release config (supports deps) ([84ed0d7](https://github.com/kidager/jacem.chaieb.me/commit/84ed0d7f4aaeb076192ec16d4e7521af1df72d49))
+* **deps-dev:** bump nuxt in the minor-versions group ([ae2b7c0](https://github.com/kidager/jacem.chaieb.me/commit/ae2b7c0d3534790797fb36f3aa0b9469a6976c46))
+* **deps:** bump micromatch ([c73d385](https://github.com/kidager/jacem.chaieb.me/commit/c73d3858891deff81351f517fda9a7be950bcdea))
+* update config ([c96b1d6](https://github.com/kidager/jacem.chaieb.me/commit/c96b1d6cbb6c789012e61addecb3e414e92a66b2))
+
+
+### Dependencies
+
+* bump the minor-versions group across 1 directory with 8 updates ([a6460f3](https://github.com/kidager/jacem.chaieb.me/commit/a6460f38efda113a2ad9653ebc7dc61f38fce4b5))
+* bump the minor-versions group with 4 updates ([4063ccb](https://github.com/kidager/jacem.chaieb.me/commit/4063ccb0c84e1ef9cedaaa976e4f167982e48f23))
+
+
+### Continuous Integration
+
+* update dependabot config ([e08df86](https://github.com/kidager/jacem.chaieb.me/commit/e08df864944872083e6e178c02f832280bb8eb33))
+
 ## [1.2.3](https://github.com/kidager/jacem.chaieb.me/compare/v1.2.2...v1.2.3) (2024-08-20)
 
 
