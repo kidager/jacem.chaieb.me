@@ -22,7 +22,6 @@ jobs:
         id: release
         with:
           token: ${{ secrets.PAT_TOKEN }}
-          release-type: simple
 
   # The following jobs are executed only if a release is created
   build-firebase:
