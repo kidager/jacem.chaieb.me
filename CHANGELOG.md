@@ -1,5 +1,48 @@
 # Changelog
 
+## [1.3.0](https://github.com/kidager/jacem.chaieb.me/compare/jacem.chaieb.me-v1.2.3...jacem.chaieb.me-v1.3.0) (2024-09-17)
+
+
+### Features
+
+* add dark mode ([83daff2](https://github.com/kidager/jacem.chaieb.me/commit/83daff29fb247410204d3ed6164a8a43b8fbe74c))
+* add env for preview deployments + separate build and deploy ([1576332](https://github.com/kidager/jacem.chaieb.me/commit/157633261bf3be3462eb30a94184ff1e5382da1e))
+* add github actions linter ([b6832cc](https://github.com/kidager/jacem.chaieb.me/commit/b6832cc2c39e54179b97b485de1aec2e5776ad6e))
+* initial commit ([05b09e4](https://github.com/kidager/jacem.chaieb.me/commit/05b09e4beb7b8090fd2cf7b017f9af9c7ca946a2))
+* smaller profile picture ([a40cac9](https://github.com/kidager/jacem.chaieb.me/commit/a40cac9d531853705e7029bec3790dae25e4f999))
+* update `theme-color` to support dark mode ([ee77237](https://github.com/kidager/jacem.chaieb.me/commit/ee7723728435e5d025f0c9be2347a538ab10326a))
+* update profile image ([60b2798](https://github.com/kidager/jacem.chaieb.me/commit/60b279823883913dc29f5bc1184c226f37ee6cca))
+* update quote ([11ecbf3](https://github.com/kidager/jacem.chaieb.me/commit/11ecbf3d35c870ad7c95b9d6af6b24e45cfa58e5))
+* upload artifacts to release ([379bdae](https://github.com/kidager/jacem.chaieb.me/commit/379bdaea05cbd4ddb54c8dd2eeb85bf813d9ad58))
+
+
+### Bug Fixes
+
+* add missing permissions ([69e5e03](https://github.com/kidager/jacem.chaieb.me/commit/69e5e0319475f26b6d453a361029ec29291e128e))
+* artifact extensiofix: artifact extension ([2dc7469](https://github.com/kidager/jacem.chaieb.me/commit/2dc7469872c8ac792d378641608b2194549c49c4))
+* artifacts download auth ([7ce652a](https://github.com/kidager/jacem.chaieb.me/commit/7ce652a6091163513c69265cd4f8d5d82e2957a1))
+* artifacts upload ([34d342c](https://github.com/kidager/jacem.chaieb.me/commit/34d342c90598961a7a36d145f78da94763b1f1d4))
+* artifacts upload ([caf4af9](https://github.com/kidager/jacem.chaieb.me/commit/caf4af9796d77854bd7ab2132b7aa6e3026a6e04))
+* ci git fetch ([5a8d25d](https://github.com/kidager/jacem.chaieb.me/commit/5a8d25d1e14e901983fad2a4db21e1c463b66d60))
+* compatibility with gh pages ([b11e3ef](https://github.com/kidager/jacem.chaieb.me/commit/b11e3ef3dea8111cb84840a695f97bdbc6d3cab4))
+* debug preview deploy ([b772c78](https://github.com/kidager/jacem.chaieb.me/commit/b772c78c7092c6e994eb9604413900494eb90a72))
+* debug what's going on with artifacts ([d5df93e](https://github.com/kidager/jacem.chaieb.me/commit/d5df93ef5e73d269cbd906ee56342657a4050e5d))
+* desc size ([90084a6](https://github.com/kidager/jacem.chaieb.me/commit/90084a61978b369b1241183bef7c85a699c9ef28))
+* different deployment jobs ([799b590](https://github.com/kidager/jacem.chaieb.me/commit/799b5908caca2f9f3b1057f69953cd73e7267eb1))
+* do not build preview on dependabot PRs ([169ded2](https://github.com/kidager/jacem.chaieb.me/commit/169ded226dd3d88194547089902dc16017aada9b))
+* downloading and uploading artifacts ([5b70f11](https://github.com/kidager/jacem.chaieb.me/commit/5b70f11d0e94439f398f5a39c8fc9807e55b67d0))
+* env variable ([592aac6](https://github.com/kidager/jacem.chaieb.me/commit/592aac6f2420a9ace6985ccb530ef1a652583eec))
+* firebase artifact files ([8f23252](https://github.com/kidager/jacem.chaieb.me/commit/8f23252881212c9730b0797cbbba11d72e9216e9))
+* fix name not showing ([5167cca](https://github.com/kidager/jacem.chaieb.me/commit/5167ccaae17b170b52caa6661f9623a92d44bf3f))
+* github actions permissions ([b606393](https://github.com/kidager/jacem.chaieb.me/commit/b60639383afc9ed241ee4aaf2a27842a6c782c7a))
+* missing `static_site_generator: nuxt` ([aed9a5d](https://github.com/kidager/jacem.chaieb.me/commit/aed9a5d344110ffb1efc7db01c0a31195ee3011d))
+* overflow ([5b0f53a](https://github.com/kidager/jacem.chaieb.me/commit/5b0f53a88cf42e60ff5f6cc6963c4874ee7f001b))
+* preview artifact path ([9b49270](https://github.com/kidager/jacem.chaieb.me/commit/9b492709ed385b1d0cdcfe51d56df3a9779d18fe))
+* preview download artifact ([98c9cc8](https://github.com/kidager/jacem.chaieb.me/commit/98c9cc8d60a36ec9769610d2b478083e2bbb9ffc))
+* prod env url and rename artifacts ([d0b5b53](https://github.com/kidager/jacem.chaieb.me/commit/d0b5b533a6582a212993cff32f5f489fe24abf93))
+* still fixing artifacts upload ([6529563](https://github.com/kidager/jacem.chaieb.me/commit/65295631fd6a0f5f41db04ad52bbbbb7c02c15cb))
+* wrong overflow ([ce320e5](https://github.com/kidager/jacem.chaieb.me/commit/ce320e57b9b05f2aa6f5974caaa7fba4297603c1))
+
 ## [1.2.3](https://github.com/kidager/jacem.chaieb.me/compare/v1.2.2...v1.2.3) (2024-08-20)
 
 
