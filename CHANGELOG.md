@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.3.0](https://github.com/kidager/jacem.chaieb.me/compare/v1.2.4...v1.3.0) (2024-09-17)
+
+
+### Features
+
+* update dark mode icon ([902a3fa](https://github.com/kidager/jacem.chaieb.me/commit/902a3fa852738775ccbb9b747fad09d06dff7498))
+
+
+### Miscellaneous Chores
+
+* **deps:** bump serve-static ([249c01d](https://github.com/kidager/jacem.chaieb.me/commit/249c01d6a1365edcda8340627f7e867ee13ad8cd))
+
+
+### Dependencies
+
+* bump the minor-versions group across 1 directory with 6 updates ([3178372](https://github.com/kidager/jacem.chaieb.me/commit/317837280b8ce7ae14164c40b959e8e2b26b94b0))
+
 ## [1.2.4](https://github.com/kidager/jacem.chaieb.me/compare/v1.2.3...v1.2.4) (2024-09-17)
 
 
