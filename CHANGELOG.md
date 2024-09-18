@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/kidager/jacem.chaieb.me/compare/v1.3.0...v1.3.1) (2024-09-18)
+
+
+### Dependencies
+
+* bump sass from 1.78.0 to 1.79.1 in the minor-versions group ([84576b9](https://github.com/kidager/jacem.chaieb.me/commit/84576b9e532bc90a46e24d185933f71e31be3599))
+
 ## [1.3.0](https://github.com/kidager/jacem.chaieb.me/compare/v1.2.4...v1.3.0) (2024-09-17)
 
 
