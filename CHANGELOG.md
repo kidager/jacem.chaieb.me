@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.3](https://github.com/kidager/jacem.chaieb.me/compare/v1.3.2...v1.3.3) (2024-09-24)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump rollup in the npm_and_yarn group across 1 directory ([8967a2b](https://github.com/kidager/jacem.chaieb.me/commit/8967a2b855abd30c2aa886e1704dcf11518421d2))
+
+
+### Dependencies
+
+* bump the minor-versions group with 3 updates ([a5e2bde](https://github.com/kidager/jacem.chaieb.me/commit/a5e2bde0e5b7ac5f9daa1a913c310f5b6384b79a))
+
 ## [1.3.2](https://github.com/kidager/jacem.chaieb.me/compare/v1.3.1...v1.3.2) (2024-09-20)
 
 
