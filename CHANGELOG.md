@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.5](https://github.com/kidager/jacem.chaieb.me/compare/v1.3.4...v1.3.5) (2024-10-07)
+
+
+### Dependencies
+
+* bump the minor-versions group across 1 directory with 4 updates ([9b09d1b](https://github.com/kidager/jacem.chaieb.me/commit/9b09d1b529f24025badefa4e57fbc26acd1ebb67))
+
 ## [1.3.4](https://github.com/kidager/jacem.chaieb.me/compare/v1.3.3...v1.3.4) (2024-09-24)
 
 
