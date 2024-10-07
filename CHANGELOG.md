@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/kidager/jacem.chaieb.me/compare/v1.3.5...v1.4.0) (2024-10-07)
+
+
+### Features
+
+* add bimi logo ([6f3e2f0](https://github.com/kidager/jacem.chaieb.me/commit/6f3e2f0fb85a3aa9a5326e3397ece21b10cee172))
+
 ## [1.3.5](https://github.com/kidager/jacem.chaieb.me/compare/v1.3.4...v1.3.5) (2024-10-07)
 
 
