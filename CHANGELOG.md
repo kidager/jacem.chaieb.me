@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.5](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.4...v1.4.5) (2024-11-12)
+
+
+### Dependencies
+
+* bump nuxt from 3.14.0 to 3.14.159 in the minor-versions group ([efc9898](https://github.com/kidager/jacem.chaieb.me/commit/efc98982aed7524748185ade40ceeee9ebc3f973))
+* bump the minor-versions group with 3 updates ([1dcb4fc](https://github.com/kidager/jacem.chaieb.me/commit/1dcb4fc9973ef258b8c9bc678ca320a0b17031b3))
+
 ## [1.4.4](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.3...v1.4.4) (2024-11-06)
 
 
