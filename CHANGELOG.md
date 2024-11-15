@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.6](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.5...v1.4.6) (2024-11-15)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump @eslint/plugin-kit ([5796683](https://github.com/kidager/jacem.chaieb.me/commit/5796683961308ff7392a3016465140e8d8e1a00c))
+* **deps:** bump cross-spawn ([bc611c0](https://github.com/kidager/jacem.chaieb.me/commit/bc611c0e2c42fefdcf62e1fc3bc7339002e5e7d1))
+
+
+### Dependencies
+
+* bump sass in the minor-versions group across 1 directory ([4fd3610](https://github.com/kidager/jacem.chaieb.me/commit/4fd3610a8fbad8fc9ee5a328d8504f1463c232fe))
+
 ## [1.4.5](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.4...v1.4.5) (2024-11-12)
 
 
