@@ -27,7 +27,7 @@
     "eslint-plugin-deprecate": "^0.8.5",
     "eslint-plugin-jest": "^28.9.0",
     "eslint-plugin-vue": "^9.32.0",
-    "globals": "^15.13.0",
+    "globals": "^15.14.0",
     "jest": "^29.7.0",
     "nuxt": "^3.14.1592",
     "pug": "^3.0.3",
