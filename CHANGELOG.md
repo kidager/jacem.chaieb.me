@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.13](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.12...v1.4.13) (2024-12-19)
+
+
+### Dependencies
+
+* bump globals from 15.13.0 to 15.14.0 in the minor-versions group ([d00f5d1](https://github.com/kidager/jacem.chaieb.me/commit/d00f5d166c469ee5a6ef82335f17e0ddf9b73796))
+
 ## [1.4.12](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.11...v1.4.12) (2024-12-17)
 
 
