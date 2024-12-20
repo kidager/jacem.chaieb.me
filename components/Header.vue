@@ -2,7 +2,7 @@
   <div>
     <ColorSwitcher />
     <header class="text-center">
-      <ProfilePicture />
+      <ProfilePicture3D />
       <FullName />
     </header>
   </div>

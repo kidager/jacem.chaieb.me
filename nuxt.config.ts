@@ -34,7 +34,8 @@ export default defineNuxtConfig({
     }
   },
   modules: [
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    '@nuxtjs/device'
   ],
   colorMode: {
     preference: 'system',
