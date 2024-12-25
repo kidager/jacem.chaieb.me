@@ -1,9 +1,9 @@
-@use "sass:map";
+@use 'sass:map';
 
-@import "themes/catppuccin/01-latte";
-@import "themes/catppuccin/02-frappe";
-@import "themes/catppuccin/03-macchiato";
-@import "themes/catppuccin/04-mocha";
+@use 'themes/catppuccin/01_latte' as light;
+// @use 'themes/catppuccin/02_frappe' as dark;
+// @use 'themes/catppuccin/03_macchiato' as dark;
+@use 'themes/catppuccin/04_mocha' as dark;
 
 $blue: #007bff;
 $indigo: #6610f2;
@@ -130,17 +130,17 @@ $selection-background: $deep-orange;
 $selection-text: $deep-orange-100;
 $links-color: $deep-orange;
 
-$background-color: $color-catppuccin-latte-base;
-$text-color: $color-catppuccin-latte-text;
-$text-color-subtext-0: $color-catppuccin-latte-subtext0;
-$text-color-subtext-1: $color-catppuccin-latte-subtext1;
-$social-icons-color: $color-catppuccin-latte-overlay1;
-$borders: $color-catppuccin-latte-surface0;
+$background-color: light.$color-catppuccin-base;
+$text-color: light.$color-catppuccin-text;
+$text-color-subtext-0: light.$color-catppuccin-subtext0;
+$text-color-subtext-1: light.$color-catppuccin-subtext1;
+$social-icons-color: light.$color-catppuccin-overlay1;
+$borders: light.$color-catppuccin-surface0;
 
 // Dark Mode
-$dark-background-color: $color-catppuccin-mocha-base;
-$dark-text-color: $color-catppuccin-mocha-text;
-$dark-text-color-subtext-0: $color-catppuccin-mocha-subtext0;
-$dark-text-color-subtext-1: $color-catppuccin-mocha-subtext1;
-$dark-social-icons-color: $color-catppuccin-mocha-overlay1;
-$dark-borders: $color-catppuccin-mocha-surface0;
+$dark-background-color: dark.$color-catppuccin-base;
+$dark-text-color: dark.$color-catppuccin-text;
+$dark-text-color-subtext-0: dark.$color-catppuccin-subtext0;
+$dark-text-color-subtext-1: dark.$color-catppuccin-subtext1;
+$dark-social-icons-color: dark.$color-catppuccin-overlay1;
+$dark-borders: dark.$color-catppuccin-surface0;
