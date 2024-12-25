@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.15](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.14...v1.4.15) (2024-12-25)
+
+
+### Bug Fixes
+
+* gh-pages build ([815eccb](https://github.com/kidager/jacem.chaieb.me/commit/815eccbdae8a2387c828f5aab94564c3dd1c7c25))
+
+
+### Code Refactoring
+
+* remove deprecated import ([4e5e19a](https://github.com/kidager/jacem.chaieb.me/commit/4e5e19afc43095ccf97b8e1a3d850eb4cadcd83d))
+
 ## [1.4.14](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.13...v1.4.14) (2024-12-25)
 
 
