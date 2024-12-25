@@ -1,3 +1,5 @@
+@use 'global/colors';
+
 *, ::after, ::before {
   box-sizing: border-box;
 }
@@ -11,12 +13,12 @@ html {
 }
 
 body {
-  color: $text-color;
+  color: colors.$text-color;
   width: auto;
   margin: 0;
-  background-color: $background-color;
+  background-color: colors.$background-color;
   .dark-theme & {
-    background-color: $dark-background-color;
-    color: $dark-text-color;
+    background-color: colors.$dark-background-color;
+    color: colors.$dark-text-color;
   }
 }
