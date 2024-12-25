@@ -45,6 +45,11 @@ export default defineNuxtConfig({
     classSuffix: '-theme',
     storageKey: 'website-color-theme'
   },
+  experimental: {
+    // temporarely disable app manifests to correctly build the gh-pages package
+    // see https://github.com/nuxt/nuxt/issues/30367
+    appManifest: false,
+  },
   server: {
     hmr: {
       url: 'https://jacem.dev.localhost',
