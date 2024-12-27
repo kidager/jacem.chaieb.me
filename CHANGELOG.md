@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.16](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.15...v1.4.16) (2024-12-27)
+
+
+### Dependencies
+
+* bump the minor-versions group with 4 updates ([550da1d](https://github.com/kidager/jacem.chaieb.me/commit/550da1ddf05dfb890c410a38573e7d38944d2674))
+
+
+### Continuous Integration
+
+* update dependabot config + remove deprecated vscode extension in recommendations ([9129165](https://github.com/kidager/jacem.chaieb.me/commit/9129165a31747df3fc3d381e79e3ead5be9f010b))
+
 ## [1.4.15](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.14...v1.4.15) (2024-12-25)
 
 
