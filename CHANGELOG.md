@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.18](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.17...v1.4.18) (2025-01-06)
+
+
+### Dependencies
+
+* bump the minor-versions group with 2 updates ([6f5eace](https://github.com/kidager/jacem.chaieb.me/commit/6f5eacea5c2ac16c2d88b00a89ea0083f6191013))
+
 ## [1.4.17](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.16...v1.4.17) (2025-01-01)
 
 
