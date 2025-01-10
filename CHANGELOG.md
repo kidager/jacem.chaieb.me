@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.20](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.19...v1.4.20) (2025-01-10)
+
+
+### Miscellaneous Chores
+
+* re-enable manifest, bug fixed in nuxt 3.15.1 ([0c6646b](https://github.com/kidager/jacem.chaieb.me/commit/0c6646bd0b1a587d86fe8eda5cee259e1ff86261))
+
+
+### Dependencies
+
+* bump actions/upload-artifact in the minor-versions group ([c8bdea3](https://github.com/kidager/jacem.chaieb.me/commit/c8bdea371547f8691c5d076ae4727f8bf12263f3))
+* bump typescript from 5.7.2 to 5.7.3 in the minor-versions group ([8fbe938](https://github.com/kidager/jacem.chaieb.me/commit/8fbe938b78333cc75d75c578a00767ccdf9b28b4))
+
 ## [1.4.19](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.18...v1.4.19) (2025-01-07)
 
 
