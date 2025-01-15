@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.23](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.22...v1.4.23) (2025-01-15)
+
+
+### Dependencies
+
+* bump eslint-plugin-jest in the minor-versions group ([7f0477b](https://github.com/kidager/jacem.chaieb.me/commit/7f0477bc89b697c49de6f49d90c6d8f1181c0c8a))
+
 ## [1.4.22](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.21...v1.4.22) (2025-01-14)
 
 
