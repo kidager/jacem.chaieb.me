@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.25](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.24...v1.4.25) (2025-01-28)
+
+
+### Dependencies
+
+* bump actions/setup-node in the minor-versions group ([fa8dd0d](https://github.com/kidager/jacem.chaieb.me/commit/fa8dd0dd36d325715927ceb90bad45ab54e5bc8d))
+* bump the minor-versions group with 2 updates ([7068c55](https://github.com/kidager/jacem.chaieb.me/commit/7068c55067088450cbd18b0d148a8d785fa666f9))
+* bump the minor-versions group with 3 updates ([2a3f8ca](https://github.com/kidager/jacem.chaieb.me/commit/2a3f8cae716d806b36f0494f608ef553ba18169d))
+
 ## [1.4.24](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.23...v1.4.24) (2025-01-21)
 
 
