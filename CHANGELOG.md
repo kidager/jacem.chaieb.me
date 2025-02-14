@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.4.26](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.25...v1.4.26) (2025-02-14)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump serialize-javascript ([9ef9e55](https://github.com/kidager/jacem.chaieb.me/commit/9ef9e552c2d8e8813df18ed7a7e3ec950c3d6d7a))
+
+
+### Dependencies
+
+* bump nuxt from 3.15.3 to 3.15.4 in the minor-versions group ([5852d43](https://github.com/kidager/jacem.chaieb.me/commit/5852d436c42c339c1284ff499d34b6f6533240eb))
+* bump sass from 1.83.4 to 1.84.0 in the minor-versions group ([7913110](https://github.com/kidager/jacem.chaieb.me/commit/791311099476e6baf77aba8164d618d9b5ec651f))
+* bump the minor-versions group across 1 directory with 6 updates ([09b2c51](https://github.com/kidager/jacem.chaieb.me/commit/09b2c514ec91b94eab824a096460e59d529e7e64))
+* bump the minor-versions group with 2 updates ([94b853a](https://github.com/kidager/jacem.chaieb.me/commit/94b853af3636b9404632855f11cf9b08ae2f6960))
+
 ## [1.4.25](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.24...v1.4.25) (2025-01-28)
 
 
