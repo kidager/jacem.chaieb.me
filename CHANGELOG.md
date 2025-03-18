@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.28](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.27...v1.4.28) (2025-03-18)
+
+
+### Dependencies
+
+* bump eslint-plugin-vue from 9.32.0 to 9.33.0 ([cb23136](https://github.com/kidager/jacem.chaieb.me/commit/cb23136669e4f7fea91532e05e1bf8cc0c440a68))
+* bump globals from 15.15.0 to 16.0.0 ([c25f8db](https://github.com/kidager/jacem.chaieb.me/commit/c25f8db02e674b507be5258facd9c3750aa27060))
+* bump the minor-versions group with 3 updates ([dcafc9e](https://github.com/kidager/jacem.chaieb.me/commit/dcafc9e8413a6b905a72bb4566fbc24630e340a3))
+
 ## [1.4.27](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.26...v1.4.27) (2025-03-17)
 
 
