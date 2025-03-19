@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.29](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.28...v1.4.29) (2025-03-19)
+
+
+### Dependencies
+
+* bump actions/download-artifact in the minor-versions group ([5f87c0d](https://github.com/kidager/jacem.chaieb.me/commit/5f87c0db6741515191cd36d81647dfc736154ab5))
+
 ## [1.4.28](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.27...v1.4.28) (2025-03-18)
 
 
