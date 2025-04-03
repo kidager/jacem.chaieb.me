@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.35](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.34...v1.4.35) (2025-04-03)
+
+
+### Dependencies
+
+* bump sass from 1.86.1 to 1.86.2 in the minor-versions group ([8831154](https://github.com/kidager/jacem.chaieb.me/commit/8831154ec59b19db6f49517f54bd230469e74430))
+
 ## [1.4.34](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.33...v1.4.34) (2025-04-03)
 
 
