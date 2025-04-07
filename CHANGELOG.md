@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.37](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.36...v1.4.37) (2025-04-07)
+
+
+### Dependencies
+
+* bump the minor-versions group with 3 updates ([fab5439](https://github.com/kidager/jacem.chaieb.me/commit/fab5439c3e1f659ec2fd443419d83858c0edaee2))
+
 ## [1.4.36](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.35...v1.4.36) (2025-04-04)
 
 
