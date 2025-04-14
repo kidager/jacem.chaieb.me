@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.39](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.38...v1.4.39) (2025-04-14)
+
+
+### Dependencies
+
+* bump actions/setup-node in the minor-versions group ([c54e9f9](https://github.com/kidager/jacem.chaieb.me/commit/c54e9f90b6dead7e8dacb324fb75d76037e93dac))
+
 ## [1.4.38](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.37...v1.4.38) (2025-04-08)
 
 
