@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.42](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.41...v1.4.42) (2025-10-04)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump tmp in the npm_and_yarn group across 1 directory ([6632272](https://github.com/kidager/jacem.chaieb.me/commit/6632272d1fdf1b7d980acd11c89d077615cbca32))
+
+
+### Dependencies
+
+* bump the minor-versions group across 1 directory with 3 updates ([7447a3d](https://github.com/kidager/jacem.chaieb.me/commit/7447a3d41088ab35d788034facd9b49a5e4a2d47))
+* bump the minor-versions group across 1 directory with 8 updates ([39819cd](https://github.com/kidager/jacem.chaieb.me/commit/39819cd8d97988d9757be513f418d9f5886d07e1))
+
 ## [1.4.41](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.40...v1.4.41) (2025-04-30)
 
 
