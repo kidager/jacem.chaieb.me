@@ -116,7 +116,7 @@ jobs:
           echo "NUXT_APP_BASE_URL=/${GITHUB_REPO_NAME}/" >> "$GITHUB_ENV"
       - run: yarn install
       - run: yarn run generate --preset github_pages
-      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
+      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
         id: upload-artifact
         with:
           path: ./.output/public/
