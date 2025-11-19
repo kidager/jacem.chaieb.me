@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.4.43](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.42...v1.4.43) (2025-11-19)
+
+
+### Dependencies
+
+* bump actions/checkout from 4.2.2 to 5.0.0 ([897216d](https://github.com/kidager/jacem.chaieb.me/commit/897216d3e4dbe52577196e8dc4df59c0d98e5383))
+* bump actions/checkout in the minor-versions group ([241205c](https://github.com/kidager/jacem.chaieb.me/commit/241205cfc04d401cd918fc9c4fb55db14d73f980))
+* bump actions/download-artifact from 4.3.0 to 5.0.0 ([f2ccf9a](https://github.com/kidager/jacem.chaieb.me/commit/f2ccf9a82b125cffaba505fb90ac1ce5ae9fcec1))
+* bump actions/download-artifact from 5.0.0 to 6.0.0 ([74c39bb](https://github.com/kidager/jacem.chaieb.me/commit/74c39bb6d6b46a4fe75cc0740ed37ac499431ce1))
+* bump actions/setup-node from 4.4.0 to 5.0.0 ([28e0886](https://github.com/kidager/jacem.chaieb.me/commit/28e088637a14294a42591c176f668f0dd7f1cb43))
+* bump actions/upload-artifact from 4.6.2 to 5.0.0 ([8cc95a5](https://github.com/kidager/jacem.chaieb.me/commit/8cc95a547b7609592e932f4cb4885dd9c1c67bd7))
+* bump actions/upload-pages-artifact from 3.0.1 to 4.0.0 ([b755a67](https://github.com/kidager/jacem.chaieb.me/commit/b755a67f79c8846638c4a6c89f656ca4f64b53ab))
+* bump the minor-versions group across 1 directory with 2 updates ([95415c8](https://github.com/kidager/jacem.chaieb.me/commit/95415c8de73c2d27b68a051f42451004ffc7b95e))
+
 ## [1.4.42](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.41...v1.4.42) (2025-10-04)
 
 
