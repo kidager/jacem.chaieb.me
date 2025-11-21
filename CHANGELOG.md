@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.44](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.43...v1.4.44) (2025-11-21)
+
+
+### Dependencies
+
+* bump actions/checkout from 5.0.1 to 6.0.0 ([67cb1ea](https://github.com/kidager/jacem.chaieb.me/commit/67cb1ea8d2417924630bf24214284d45f37d6387))
+
 ## [1.4.43](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.42...v1.4.43) (2025-11-19)
 
 
