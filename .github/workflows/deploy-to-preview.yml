@@ -3,6 +3,7 @@ name: deploy-to-preview
 on:
   workflow_dispatch:
   pull_request:
+    types: [opened, synchronize, reopened, labeled]
     paths-ignore:
       - '**docker**'
       - '.github/**'
@@ -15,7 +16,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: ${{ github.actor != 'dependabot[bot]' && github.event.pull_request.head.repo.full_name == github.repository }}
+    if: |
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      (
+        (github.event.action != 'labeled' && github.actor != 'dependabot[bot]') ||
+        (github.event.action == 'labeled' && github.event.label.name == 'deploy-preview')
+      )
     steps:
       - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6.0.0
       - uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6.0.0
@@ -48,7 +54,12 @@ jobs:
       name: preview
       url: ${{ steps.deployment-firebase.outputs.details_url }}
     runs-on: ubuntu-latest
-    if: ${{ github.actor != 'dependabot[bot]' && github.event.pull_request.head.repo.full_name == github.repository }}
+    if: |
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      (
+        (github.event.action != 'labeled' && github.actor != 'dependabot[bot]') ||
+        (github.event.action == 'labeled' && github.event.label.name == 'deploy-preview')
+      )
     steps:
       - uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6.0.0
         with:
