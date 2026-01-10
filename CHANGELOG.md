@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.6.1](https://github.com/kidager/jacem.chaieb.me/compare/v1.6.0...v1.6.1) (2026-01-10)
+
+
+### Bug Fixes
+
+* add some more constraint for the deploy-preview action ([6202e31](https://github.com/kidager/jacem.chaieb.me/commit/6202e3140850c21b0463ff434856bb58cdb4021b))
+
+
+### Miscellaneous Chores
+
+* add emojis to workflows names ([fadbed4](https://github.com/kidager/jacem.chaieb.me/commit/fadbed42a97ba3792caa9809b4aefe1575fdd714))
+* **deps:** bump node-forge ([270525c](https://github.com/kidager/jacem.chaieb.me/commit/270525cd4788591af9545ceeea34a7822bf0cda1))
+* make tests run in parallel ([ee9920a](https://github.com/kidager/jacem.chaieb.me/commit/ee9920aeff765109981d78f0d2531bb028a31e8d))
+* rework when deploy-to-preview is run ([0c5f3a1](https://github.com/kidager/jacem.chaieb.me/commit/0c5f3a1747486c07ec6d569f314c4a383c8081ff))
+
+
+### Dependencies
+
+* bump eslint-plugin-jest from 28.11.0 to 29.0.1 ([8ca0676](https://github.com/kidager/jacem.chaieb.me/commit/8ca0676efa08ea6db6305a9a4b2a1b4aa4c1bc72))
+* bump jest from 29.7.0 to 30.2.0 ([cda8131](https://github.com/kidager/jacem.chaieb.me/commit/cda8131736f61c28a5c91193521d8201576a6f6e))
+* bump the minor-versions group across 1 directory with 7 updates ([a498837](https://github.com/kidager/jacem.chaieb.me/commit/a4988375e370c08d60e4386e4ff8e43da726cb7b))
+* bump the minor-versions group with 2 updates ([ca724ac](https://github.com/kidager/jacem.chaieb.me/commit/ca724ac6fadc0df5351c60dc6e8fc163322798ad))
+
 ## [1.6.0](https://github.com/kidager/jacem.chaieb.me/compare/v1.5.0...v1.6.0) (2026-01-10)
 
 
