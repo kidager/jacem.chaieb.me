@@ -1,21 +1,3 @@
 $font-family-sans-serif: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 $font-family-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-
-$font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-
-// @import 'https://fonts.googleapis.com/css?family=Lato:300,400&family=Roboto+Slab:400,700&family=Roboto:300,300i,400,400i,500,500i,700,700i';
-// $font-roboto-slab: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
-
-
-body {
-  font-family: $font-family-sans-serif;
-
-  line-height: 1.5;
-
-  text-align: left;
-}
-
-.text-center {
-  text-align: center!important;
-}

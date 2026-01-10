@@ -1,6 +1,5 @@
 import typescriptEslint from "@typescript-eslint/eslint-plugin";
 import vue from "eslint-plugin-vue";
-import jest from "eslint-plugin-jest";
 import deprecate from "eslint-plugin-deprecate";
 import globals from "globals";
 import path from "node:path";
@@ -31,8 +30,6 @@ export default [
         "plugin:vue/recommended",
         "eslint:recommended",
         "plugin:compat/recommended",
-        "plugin:jest/recommended",
-        "plugin:jest/style",
         "plugin:@typescript-eslint/recommended",
         "plugin:vue/vue3-recommended"
     ),
@@ -40,7 +37,6 @@ export default [
         plugins: {
             "@typescript-eslint": typescriptEslint,
             vue,
-            jest,
             deprecate,
         },
 
@@ -49,7 +45,6 @@ export default [
                 ...globals.node,
                 ...globals.browser,
                 ...globals.commonjs,
-                ...jest.environments.globals.globals,
             },
 
             ecmaVersion: 2018,
@@ -59,7 +54,6 @@ export default [
                 extends: "standard",
                 parser: "@typescript-eslint/parser",
                 project: "tsconfig.json",
-                tsconfigRootDir: "/home/node/app",
                 extraFileExtensions: [".vue"],
             },
         },

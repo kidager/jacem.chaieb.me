@@ -1,14 +1,11 @@
-import { defineNuxtConfig } from  'nuxt/config';
+import { defineNuxtConfig } from 'nuxt/config';
 
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  title: 'Jacem Chaieb',
-  meta: {
-    charset: 'utf-8',
-  },
   typescript: {
     strict: true,
   },
+
   app: {
     head: {
       charset: 'utf-8',
@@ -18,29 +15,45 @@ export default defineNuxtConfig({
       meta: [
         { name: 'theme-color', media: '(prefers-color-scheme: light)', content: '#eff1f5' },
         { name: 'theme-color', media: '(prefers-color-scheme: dark)', content: '#1e1e2e' },
-        { name: 'viewport', content: 'width=device-width,initial-scale=1' },
         { name: 'description', content: 'The personal website of Jacem Chaieb, an IT engineer currently focusing on PHP and architecture.' },
         { name: 'keywords', content: 'jacem,chaieb,developer,laravel,php,hugo,minimalist,blog,enis,kidager,jchaieb,zenchef,resengo,formitable,ankor,ankorstore,spark-it,bulldozer,kebili,tunis,sfax,tunisia,paris,france,cairo,egypt' }
       ],
     }
   },
+
   vite: {
     css: {
       preprocessorOptions: {
         scss: {
           additionalData: `
             @use '@/assets/style/global/colors' as *;
-            @use '@/assets/style/global/breakpoints' as *;
             @use '@/assets/style/global/fonts' as *;
-            @use '@/assets/style/global/reboot' as *;
           `
+        }
+      }
+    },
+    server: {
+      hmr: {
+        clientPort: 443,
+        host: 'jacem.dev.localhost',
+        protocol: 'wss',
+      }
+    },
+    build: {
+      cssMinify: true,
+      minify: 'esbuild',
+      rollupOptions: {
+        output: {
+          manualChunks: undefined,
         }
       }
     }
   },
+
   modules: [
     '@nuxtjs/color-mode'
   ],
+
   colorMode: {
     preference: 'system',
     fallback: 'light',
@@ -50,9 +63,6 @@ export default defineNuxtConfig({
     classSuffix: '-theme',
     storageKey: 'website-color-theme'
   },
-  server: {
-    hmr: {
-      url: 'https://jacem.dev.localhost',
-    }
-  }
+
+  compatibilityDate: '2025-01-10',
 })

@@ -31,16 +31,17 @@
 // 4. Change the default tap highlight to be completely transparent in iOS.
 
 body {
-  margin: 0; // 1
+  margin: 0;
   font-family: $font-family-sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.15;
   color: $text-color;
   text-align: left;
-  background-color: $background-color; // 2
-  -webkit-text-size-adjust: 100%; // 3
-  -webkit-tap-highlight-color: rgba($black, 0); // 4
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba($black, 0);
+
   ::-moz-selection { background: $selection-background; color: $selection-text; }
   ::selection { background: $selection-background; color: $selection-text; }
 
@@ -464,4 +465,10 @@ progress {
 
 [hidden] {
   display: none !important;
+}
+
+// Utility classes
+
+.text-center {
+  text-align: center !important;
 }
