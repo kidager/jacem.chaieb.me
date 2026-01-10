@@ -1,4 +1,7 @@
-FROM node:20-alpine AS base
+FROM node:20 AS base
+
+# Install Playwright browser dependencies
+RUN npx playwright install-deps chromium firefox
 
 USER node
 

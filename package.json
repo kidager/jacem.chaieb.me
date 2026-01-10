@@ -8,15 +8,18 @@
     "dev": "rm -rf /tmp/nitro && nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
+    "postinstall": "nuxt prepare && playwright install chromium firefox",
     "lint": "eslint .",
     "precommit-lint": "eslint --no-warn-ignored --fix --cache --cache-location .eslintcache --cache-strategy content",
     "precommit-stylelint": "stylelint --fix",
     "lint:fix": "eslint --fix .",
-    "type-check": "nuxi typecheck"
+    "type-check": "nuxi typecheck",
+    "test:e2e": "playwright test",
+    "test:e2e:update": "playwright test --update-snapshots"
   },
   "dependencies": {},
   "devDependencies": {
+    "@playwright/test": "^1.49.0",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.32.0",
     "@nuxtjs/color-mode": "^3.5.2",
