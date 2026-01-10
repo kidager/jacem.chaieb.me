@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.5.0](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.43...v1.5.0) (2026-01-10)
+
+
+### Features
+
+* add playwright ([68dc8ca](https://github.com/kidager/jacem.chaieb.me/commit/68dc8ca063aeaa1e5dac3899a3934492e3df4573))
+
+
+### Bug Fixes
+
+* fix for code scanning alert no. 3: Workflow does not contain permissions ([a08570d](https://github.com/kidager/jacem.chaieb.me/commit/a08570d9b45bc7866e7c5a5dadf5e1818f7c5d4b))
+
+
+### Dependencies
+
+* bump actions/checkout from 5.0.1 to 6.0.0 ([67cb1ea](https://github.com/kidager/jacem.chaieb.me/commit/67cb1ea8d2417924630bf24214284d45f37d6387))
+
 ## [1.4.43](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.42...v1.4.43) (2025-11-19)
 
 
