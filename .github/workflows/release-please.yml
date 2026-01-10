@@ -1,4 +1,4 @@
-name: release-please
+name: 📦 release-please
 
 on:
   push:
