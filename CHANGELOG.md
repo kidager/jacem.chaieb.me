@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.2](https://github.com/kidager/jacem.chaieb.me/compare/v1.6.1...v1.6.2) (2026-01-10)
+
+
+### Miscellaneous Chores
+
+* clean-up ([673519d](https://github.com/kidager/jacem.chaieb.me/commit/673519d24f3f8e7f7dbd0f20a1364575ead76d45))
+
 ## [1.6.1](https://github.com/kidager/jacem.chaieb.me/compare/v1.6.0...v1.6.1) (2026-01-10)
 
 
