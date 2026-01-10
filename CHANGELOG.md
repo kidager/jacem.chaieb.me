@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.6.0](https://github.com/kidager/jacem.chaieb.me/compare/v1.5.0...v1.6.0) (2026-01-10)
+
+
+### Features
+
+* deploy dependabot PRs to preview on tag with `deploy-preview` ([4a93dac](https://github.com/kidager/jacem.chaieb.me/commit/4a93dacfc151afbc75a632ebf244128024da3aa1))
+
+
+### Bug Fixes
+
+* only run the e2e tests if the souce files have changed ([d222ee1](https://github.com/kidager/jacem.chaieb.me/commit/d222ee18fba33973218b83b2e398014593a7fe03))
+
+
+### Dependencies
+
+* bump nuxt from 3.17.1 to 4.1.2 ([c34c338](https://github.com/kidager/jacem.chaieb.me/commit/c34c338da44e80624ae162933e6442a90c4b1f87))
+
 ## [1.5.0](https://github.com/kidager/jacem.chaieb.me/compare/v1.4.43...v1.5.0) (2026-01-10)
 
 
