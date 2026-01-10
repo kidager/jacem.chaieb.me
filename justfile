@@ -42,3 +42,13 @@ yarn *args='':
 [no-exit-message]
 sh container='jacem-chaieb-me' binary='sh':
     docker compose exec -it {{container}} {{binary}}
+
+# Run Playwright e2e tests
+[no-exit-message]
+test *args='':
+    docker compose exec {{docker-options}} jacem-chaieb-me yarn test:e2e {{args}}
+
+# Update baseline screenshots
+[no-exit-message]
+test-update-snapshots *args='':
+    docker compose exec {{docker-options}} jacem-chaieb-me yarn test:e2e --update-snapshots {{args}}

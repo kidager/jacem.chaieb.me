@@ -12,3 +12,6 @@ compose.override.yaml
 .env
 .cache
 .firebase
+test-results
+playwright-report
+.DS_Store
