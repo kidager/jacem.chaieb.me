@@ -13,11 +13,17 @@ on:
       - 'justfile'
       - 'compose.yaml'
 
+concurrency:
+  group: preview-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Skip release-please PRs as they only contain changelog/version updates
     if: |
       github.event.pull_request.head.repo.full_name == github.repository &&
+      !startsWith(github.head_ref, 'release-please--') &&
       (
         (github.event.action != 'labeled' && github.actor != 'dependabot[bot]') ||
         (github.event.action == 'labeled' && github.event.label.name == 'deploy-preview')
@@ -54,12 +60,6 @@ jobs:
       name: preview
       url: ${{ steps.deployment-firebase.outputs.details_url }}
     runs-on: ubuntu-latest
-    if: |
-      github.event.pull_request.head.repo.full_name == github.repository &&
-      (
-        (github.event.action != 'labeled' && github.actor != 'dependabot[bot]') ||
-        (github.event.action == 'labeled' && github.event.label.name == 'deploy-preview')
-      )
     steps:
       - uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6.0.0
         with:
