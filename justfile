@@ -52,3 +52,8 @@ test *args='':
 [no-exit-message]
 test-update-snapshots *args='':
     docker compose exec {{docker-options}} jacem-chaieb-me yarn test:e2e --update-snapshots {{args}}
+
+# Show Playwright test report
+[no-exit-message]
+test-report:
+    docker compose exec {{docker-options}} jacem-chaieb-me yarn playwright show-report --host 0.0.0.0

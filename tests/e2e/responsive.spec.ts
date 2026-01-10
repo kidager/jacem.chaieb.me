@@ -21,7 +21,7 @@ test.describe('Responsive layout', () => {
 
     const containerMaxWidth = await page.evaluate(() => {
       const container = document.querySelector('.container')
-      if (!container) return null
+      if (!container) {return null}
       return window.getComputedStyle(container).maxWidth
     })
 

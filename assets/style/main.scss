@@ -1,24 +1,8 @@
-@use 'global/colors';
-
-*, ::after, ::before {
-  box-sizing: border-box;
-}
+@use 'global/reboot';
 
 html {
-  // Main
   position: relative;
   height: 100%;
   min-height: 100%;
   margin: 0;
-}
-
-body {
-  color: colors.$text-color;
-  width: auto;
-  margin: 0;
-  background-color: colors.$background-color;
-  .dark-theme & {
-    background-color: colors.$dark-background-color;
-    color: colors.$dark-text-color;
-  }
 }
