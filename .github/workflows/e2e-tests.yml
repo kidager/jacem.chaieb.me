@@ -5,6 +5,18 @@ permissions:
 
 on:
   pull_request:
+    paths:
+      - '**/*.vue'
+      - '**/*.ts'
+      - '**/*.js'
+      - '**/*.scss'
+      - '**/*.css'
+      - 'nuxt.config.*'
+      - 'playwright.config.*'
+      - 'package.json'
+      - 'yarn.lock'
+      - 'tests/**'
+      - '.github/workflows/e2e-tests.yml'
   workflow_dispatch:
 
 jobs:
