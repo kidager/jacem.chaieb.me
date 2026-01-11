@@ -167,7 +167,7 @@ sup { top: -.5em; }
 //    making it impossible to interact with the content
 
 code {
-  word-wrap: break-word;
+  overflow-wrap: break-word;
 
   // Streamline the style when inside anchors to avoid broken underline and more
   a > & {
@@ -307,7 +307,7 @@ select {
 // See https://github.com/twbs/bootstrap/issues/24990
 
 select {
-  word-wrap: normal;
+  overflow-wrap: normal;
 }
 
 // Remove the dropdown arrow in Chrome from inputs built with datalists.

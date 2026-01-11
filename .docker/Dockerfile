@@ -1,4 +1,4 @@
-FROM node:20 AS base
+FROM node:24 AS base
 
 # Install Playwright browser dependencies
 RUN npx playwright install-deps chromium firefox
