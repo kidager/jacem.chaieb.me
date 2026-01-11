@@ -25,6 +25,7 @@ const {
 const {
   position: gyroPosition,
   isSupported: gyroSupported,
+  needsPermissionRequest: gyroNeedsPermission,
   requestPermission: requestGyroPermission
 } = useGyroscope({
   boundaryLimit: 0.5,
@@ -69,9 +70,10 @@ const handleMouseLeave = () => {
   }
 }
 
-// Handle tap to request gyroscope permission on mobile
+// Handle tap to request gyroscope permission on mobile (iOS only)
 const handleTap = async () => {
-  if (!isMobile.value || gyroscopeActivated.value || !gyroSupported.value) {return}
+  // Only needed on iOS where permission requires user gesture
+  if (!isMobile.value || gyroscopeActivated.value || !gyroSupported.value || !gyroNeedsPermission.value) {return}
 
   const granted = await requestGyroPermission()
   if (granted) {
@@ -103,6 +105,15 @@ onMounted(async () => {
         setTarget(pos.x, pos.y)
       }
     })
+
+    // Auto-activate on Android (no permission request needed)
+    // iOS requires user gesture, so tap is still needed there
+    if (!gyroNeedsPermission.value) {
+      const granted = await requestGyroPermission()
+      if (granted) {
+        gyroscopeActivated.value = true
+      }
+    }
   }
 })
 

@@ -1,4 +1,4 @@
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 
 interface GyroscopeOptions {
   boundaryLimit?: number
@@ -20,6 +20,12 @@ export function useGyroscope(options: GyroscopeOptions = {}) {
   const position = ref({ x: 0, y: 0 })
   const isSupported = ref(false)
   const permissionGranted = ref(false)
+
+  // Check if permission request is needed (iOS 13+)
+  const needsPermissionRequest = computed(() => {
+    const DOEvent = DeviceOrientationEvent as unknown as DeviceOrientationEventWithPermission
+    return typeof DOEvent.requestPermission === 'function'
+  })
 
   const baseline = { beta: 0, gamma: 0 }
   let lastShakeTime = 0
@@ -116,6 +122,7 @@ export function useGyroscope(options: GyroscopeOptions = {}) {
     position,
     isSupported,
     permissionGranted,
+    needsPermissionRequest,
     requestPermission,
     resetBaseline
   }
