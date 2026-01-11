@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.7.0](https://github.com/kidager/jacem.chaieb.me/compare/v1.6.3...v1.7.0) (2026-01-11)
+
+
+### Features
+
+* add 3D depth map ([fae2fa6](https://github.com/kidager/jacem.chaieb.me/commit/fae2fa6cf5e1e022644bbb2f76723e72d62530c8))
+
+
+### Bug Fixes
+
+* auto-start effect when possible ([384d889](https://github.com/kidager/jacem.chaieb.me/commit/384d889d47b0c1f8a4875c5525e11d35b7768248))
+
 ## [1.6.3](https://github.com/kidager/jacem.chaieb.me/compare/v1.6.2...v1.6.3) (2026-01-11)
 
 
