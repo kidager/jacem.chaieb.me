@@ -57,7 +57,6 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'system',
     fallback: 'light',
-    hid: 'website-color-theme-script',
     globalName: '__WEBSITE_COLOR_THEME__',
     componentName: 'ColorScheme',
     classSuffix: '-theme',

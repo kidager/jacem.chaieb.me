@@ -1,19 +1,11 @@
 import typescriptEslint from "@typescript-eslint/eslint-plugin";
+import tsParser from "@typescript-eslint/parser";
 import vue from "eslint-plugin-vue";
+import vueParser from "vue-eslint-parser";
 import deprecate from "eslint-plugin-deprecate";
+import compat from "eslint-plugin-compat";
 import globals from "globals";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
 import js from "@eslint/js";
-import { FlatCompat } from "@eslint/eslintrc";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const compat = new FlatCompat({
-    baseDirectory: __dirname,
-    recommendedConfig: js.configs.recommended,
-    allConfig: js.configs.all
-});
 
 export default [
     {
@@ -25,19 +17,15 @@ export default [
             "eslint.config.mjs"
         ],
     },
-    ...compat.extends(
-        "plugin:vue/essential",
-        "plugin:vue/recommended",
-        "eslint:recommended",
-        "plugin:compat/recommended",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:vue/vue3-recommended"
-    ),
+    js.configs.recommended,
+    ...vue.configs["flat/recommended"],
     {
+        files: ["**/*.vue", "**/*.ts", "**/*.js"],
+
         plugins: {
             "@typescript-eslint": typescriptEslint,
-            vue,
             deprecate,
+            compat,
         },
 
         languageOptions: {
@@ -48,11 +36,11 @@ export default [
             },
 
             ecmaVersion: 2018,
-            sourceType: "commonjs",
+            sourceType: "module",
 
+            parser: vueParser,
             parserOptions: {
-                extends: "standard",
-                parser: "@typescript-eslint/parser",
+                parser: tsParser,
                 project: "tsconfig.json",
                 extraFileExtensions: [".vue"],
             },
@@ -63,6 +51,8 @@ export default [
         },
 
         rules: {
+            ...typescriptEslint.configs.recommended.rules,
+            ...compat.configs["flat/recommended"].rules,
             curly: [2, "all"],
             "no-console": "error",
             "@typescript-eslint/camelcase": "off",

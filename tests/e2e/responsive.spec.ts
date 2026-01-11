@@ -15,8 +15,7 @@ test.describe('Responsive layout', () => {
     expect(hasHorizontalScroll).toBe(false)
   })
 
-  test('container respects max-width at different viewports', async ({ page, browserName }) => {
-    // Skip on Firefox mobile since we're testing viewport-specific behavior
+  test('container respects max-width at different viewports', async ({ page }) => {
     const viewportWidth = page.viewportSize()?.width || 0
 
     const containerMaxWidth = await page.evaluate(() => {
@@ -39,7 +38,6 @@ test.describe('Responsive layout', () => {
   test('elements do not overlap', async ({ page }) => {
     // Check that main sections are visible and properly stacked
     const header = page.locator('header, .header, [class*="header"]').first()
-    const infoPane = page.locator('.info-pane, section').first()
     const socialSection = page.locator('section.social')
     const footer = page.locator('footer')
 

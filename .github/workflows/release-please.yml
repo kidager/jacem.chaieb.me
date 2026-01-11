@@ -33,12 +33,12 @@ jobs:
     outputs:
       artifact-name: ${{ env.ARTIFACT_NAME }}
     steps:
-      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
         with:
-          node-version: 20
+          node-version: 24
           cache: yarn
-      - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
+      - uses: actions/cache@9255dc7a253b0ccc959486e2bca901246202afeb # v5.0.1
         with:
           path: |
             .output
@@ -48,7 +48,7 @@ jobs:
             ${{ runner.os }}-firebase-nuxt-build-
       - run: yarn install
       - run: yarn run generate
-      - uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
         id: upload-artifact
         with:
           name: ${{ env.ARTIFACT_NAME }}
@@ -75,7 +75,7 @@ jobs:
       name: production
       url: https://jacem.chaieb.me
     steps:
-      - uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6.0.0
+      - uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7.0.0
         with:
           name: ${{ needs.build-firebase.outputs.artifact-name }}
           path: ./artifacts/firebase
@@ -97,12 +97,12 @@ jobs:
     outputs:
       artifact-name: ${{ env.ARTIFACT_NAME }}
     steps:
-      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
         with:
-          node-version: 20
+          node-version: 24
           cache: yarn
-      - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
+      - uses: actions/cache@9255dc7a253b0ccc959486e2bca901246202afeb # v5.0.1
         with:
           path: |
             .output
