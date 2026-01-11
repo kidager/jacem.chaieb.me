@@ -3,6 +3,10 @@
   "private": true,
   "license": "UNLICENSE",
   "repository": "github:kidager/jacem.chaieb.me",
+  "resolutions": {
+    "js-yaml": "^3.14.2",
+    "glob": "^10.5.0"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "rm -rf /tmp/nitro && nuxt dev",
