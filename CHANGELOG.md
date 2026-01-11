@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.6.3](https://github.com/kidager/jacem.chaieb.me/compare/v1.6.2...v1.6.3) (2026-01-11)
+
+
+### Bug Fixes
+
+* missing permissions ([70174d8](https://github.com/kidager/jacem.chaieb.me/commit/70174d82cfbf3baa08e98fe54c86aaea83da52dc))
+
+
+### Miscellaneous Chores
+
+* update versions ([1b38e14](https://github.com/kidager/jacem.chaieb.me/commit/1b38e145b7be225ae14591525da770f4ac975f1d))
+* various updates ([ea89bd6](https://github.com/kidager/jacem.chaieb.me/commit/ea89bd608d5bc8eb4f1080f9eb747416eb471022))
+
 ## [1.6.2](https://github.com/kidager/jacem.chaieb.me/compare/v1.6.1...v1.6.2) (2026-01-10)
 
 
