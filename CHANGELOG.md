@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.2](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.1...v1.7.2) (2026-01-14)
+
+
+### Dependencies
+
+* bump @types/node from 25.0.7 to 25.0.8 in the minor-versions group ([02f7662](https://github.com/kidager/jacem.chaieb.me/commit/02f76629a9d8f7dc43bf315895c7c44c8d6b7efa))
+
 ## [1.7.1](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.0...v1.7.1) (2026-01-13)
 
 
