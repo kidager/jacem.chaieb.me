@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.7.3](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.2...v1.7.3) (2026-01-15)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump devalue in the npm_and_yarn group across 1 directory ([c51ec44](https://github.com/kidager/jacem.chaieb.me/commit/c51ec4434a30413284fcadbd6d8d1bc54f504120))
+
+
+### Dependencies
+
+* bump actions/setup-node in the minor-versions group ([c3e806b](https://github.com/kidager/jacem.chaieb.me/commit/c3e806ba316ecab6496074fbf5047995a1dc5e27))
+
 ## [1.7.2](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.1...v1.7.2) (2026-01-14)
 
 
