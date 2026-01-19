@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.5](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.4...v1.7.5) (2026-01-19)
+
+
+### Dependencies
+
+* bump actions/cache from 5.0.1 to 5.0.2 in the minor-versions group ([6c070c5](https://github.com/kidager/jacem.chaieb.me/commit/6c070c59978a8d07f286212d367af4f2b71b5a52))
+* bump eslint-plugin-vue in the minor-versions group ([f2e2831](https://github.com/kidager/jacem.chaieb.me/commit/f2e283192142eacc4c84f0617628bcbd9c236ec6))
+
 ## [1.7.4](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.3...v1.7.4) (2026-01-18)
 
 
