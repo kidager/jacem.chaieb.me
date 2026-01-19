@@ -33,7 +33,7 @@
     "eslint": "^9.39.2",
     "eslint-plugin-compat": "^6.0.2",
     "eslint-plugin-deprecate": "^0.8.7",
-    "eslint-plugin-vue": "^10.6.2",
+    "eslint-plugin-vue": "^10.7.0",
     "globals": "^17.0.0",
     "nuxt": "^4.2.2",
     "sass": "^1.97.2",
