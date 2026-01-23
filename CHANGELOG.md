@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.7](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.6...v1.7.7) (2026-01-23)
+
+
+### Dependencies
+
+* bump the minor-versions group with 2 updates ([28407b5](https://github.com/kidager/jacem.chaieb.me/commit/28407b56ce574c35def1e2895c3067fbc84bba10))
+
 ## [1.7.6](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.5...v1.7.6) (2026-01-23)
 
 
