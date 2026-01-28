@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.9](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.8...v1.7.9) (2026-01-28)
+
+
+### Dependencies
+
+* bump globals from 17.1.0 to 17.2.0 in the minor-versions group ([a247f05](https://github.com/kidager/jacem.chaieb.me/commit/a247f0552c02a808966f8f96996c8859633038c6))
+
 ## [1.7.8](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.7...v1.7.8) (2026-01-27)
 
 
