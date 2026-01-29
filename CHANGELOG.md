@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.7.10](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.9...v1.7.10) (2026-01-29)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump tar in the npm_and_yarn group across 1 directory ([e07774c](https://github.com/kidager/jacem.chaieb.me/commit/e07774c1c202da4568b936062544ca58785a11de))
+
+
+### Dependencies
+
+* bump @types/node in the minor-versions group ([55f1b81](https://github.com/kidager/jacem.chaieb.me/commit/55f1b812440603822fb230ee80625b12cb584185))
+
 ## [1.7.9](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.8...v1.7.9) (2026-01-28)
 
 
