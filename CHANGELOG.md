@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.11](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.10...v1.7.11) (2026-02-03)
+
+
+### Dependencies
+
+* bump actions/cache from 5.0.2 to 5.0.3 in the minor-versions group ([42dde97](https://github.com/kidager/jacem.chaieb.me/commit/42dde970dd047c7f6577e8ee10669f7416239f5c))
+* bump the minor-versions group with 3 updates ([2282c73](https://github.com/kidager/jacem.chaieb.me/commit/2282c73d0503babeb518371a3632da3989de6b20))
+
 ## [1.7.10](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.9...v1.7.10) (2026-01-29)
 
 
