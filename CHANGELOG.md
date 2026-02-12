@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.13](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.12...v1.7.13) (2026-02-12)
+
+
+### Dependencies
+
+* bump @eslint/js from 9.39.2 to 10.0.1 ([1350fcc](https://github.com/kidager/jacem.chaieb.me/commit/1350fcc259543c502c4960631a41e922f58f3420))
+* bump @types/node from 25.2.2 to 25.2.3 in the minor-versions group ([89991c1](https://github.com/kidager/jacem.chaieb.me/commit/89991c120832379859f72f0f9a1707b5c12cdc21))
+
 ## [1.7.12](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.11...v1.7.12) (2026-02-11)
 
 
