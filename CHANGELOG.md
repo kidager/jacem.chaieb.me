@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.7.13](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.12...v1.7.13) (2026-02-19)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump the npm_and_yarn group across 1 directory with 2 updates ([ae7f7d4](https://github.com/kidager/jacem.chaieb.me/commit/ae7f7d400b0baeacc931eaccbb5e62e5d2ceb2e0))
+
+
+### Dependencies
+
+* bump @eslint/js from 9.39.2 to 10.0.1 ([1350fcc](https://github.com/kidager/jacem.chaieb.me/commit/1350fcc259543c502c4960631a41e922f58f3420))
+* bump @types/node from 25.2.2 to 25.2.3 in the minor-versions group ([89991c1](https://github.com/kidager/jacem.chaieb.me/commit/89991c120832379859f72f0f9a1707b5c12cdc21))
+* bump the minor-versions group across 1 directory with 8 updates ([f7337aa](https://github.com/kidager/jacem.chaieb.me/commit/f7337aae21ea46b476f7601abceec81146c03164))
+
 ## [1.7.12](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.11...v1.7.12) (2026-02-11)
 
 
