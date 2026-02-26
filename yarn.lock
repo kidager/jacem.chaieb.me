@@ -2673,7 +2673,7 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001687, caniuse-lite@^1.0.30001759, caniuse-lite@^1.0.30001766:
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001759, caniuse-lite@^1.0.30001766:
   version "1.0.30001769"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001769.tgz#1ad91594fad7dc233777c2781879ab5409f7d9c2"
   integrity sha512-BCfFL1sHijQlBGWBMuJyhZUhzo7wer5sVj9hqekB/7xn0Ypy+pER/edCYQm4exbXj4WiySGp40P8UuTh6w1srg==
@@ -3316,15 +3316,14 @@ escape-string-regexp@^5.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-5.0.0.tgz#4683126b500b61762f2dbebace1806e8be31b1c8"
   integrity sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==
 
-eslint-plugin-compat@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-6.2.0.tgz#06eadbd954bb95e740c80aca27cd00cdad3b0b3c"
-  integrity sha512-Ihz4zAeHKzyksDDUTObrYQxaqnV/pFlAiZoWkMuWM9XGf4O191ReQFYv516zcs9QVJ2vX+MMpqr1yEfTkXVETQ==
+eslint-plugin-compat@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-7.0.0.tgz#94ab27a3b7e11bd0752fc0858dd906d5d597d611"
+  integrity sha512-P5AKzirW/Z6T5XzN+4N7O2HKVyFwfDD9NaUdBNrG9c4652Ef2W77whXDtzJXxPuRXppljJavzBvTLcYpcY0UXw==
   dependencies:
     "@mdn/browser-compat-data" "^6.1.1"
     ast-metadata-inferer "^0.8.1"
     browserslist "^4.25.2"
-    caniuse-lite "^1.0.30001687"
     find-up "^5.0.0"
     globals "^15.7.0"
     lodash.memoize "^4.1.2"
