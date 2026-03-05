@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.7.14](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.13...v1.7.14) (2026-03-05)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump immutable in the npm_and_yarn group across 1 directory ([e8f6937](https://github.com/kidager/jacem.chaieb.me/commit/e8f693760564062f5a907a49218e71c29faa8e89))
+* **deps:** bump rollup in the npm_and_yarn group across 1 directory ([23a3e84](https://github.com/kidager/jacem.chaieb.me/commit/23a3e84e67057164f5743d473ffaf339e60b246d))
+* **deps:** bump svgo in the npm_and_yarn group across 1 directory ([9bdffbf](https://github.com/kidager/jacem.chaieb.me/commit/9bdffbfacfcde754a1ae025ce78a27fba8d6955e))
+
+
+### Dependencies
+
+* bump actions/download-artifact from 7.0.0 to 8.0.0 ([2d4c553](https://github.com/kidager/jacem.chaieb.me/commit/2d4c553447258611c0864029d25ea04c002f14da))
+* bump actions/setup-node in the minor-versions group ([966a444](https://github.com/kidager/jacem.chaieb.me/commit/966a444040ba5cdf5639b5bab5307619407d4435))
+* bump actions/upload-artifact from 6.0.0 to 7.0.0 ([dd3c3f6](https://github.com/kidager/jacem.chaieb.me/commit/dd3c3f6275d7cb7a4caf338ee840c42d5d7d03e2))
+* bump eslint-plugin-compat from 6.2.0 to 7.0.0 ([8c375cf](https://github.com/kidager/jacem.chaieb.me/commit/8c375cf7954cd1e2e409e24103a82d15dc853b40))
+* bump the minor-versions group across 1 directory with 4 updates ([74200e9](https://github.com/kidager/jacem.chaieb.me/commit/74200e950d8c4e81d37fdaf8f4862f4c57272f84))
+
 ## [1.7.13](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.12...v1.7.13) (2026-02-25)
 
 
