@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.15](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.14...v1.7.15) (2026-04-17)
+
+
+### Dependencies
+
+* bump the minor-versions group across 1 directory with 11 updates ([315d5f8](https://github.com/kidager/jacem.chaieb.me/commit/315d5f86df2af0561b0c168b3eea6992a182f231))
+* bump the minor-versions group across 1 directory with 4 updates ([30bc921](https://github.com/kidager/jacem.chaieb.me/commit/30bc921cb7f0839ba369f9688c8409a186ad1b88))
+
 ## [1.7.14](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.13...v1.7.14) (2026-03-05)
 
 
