@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.7.16](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.15...v1.7.16) (2026-05-07)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump tar in the npm_and_yarn group across 1 directory ([e90216a](https://github.com/kidager/jacem.chaieb.me/commit/e90216aa1ed924ab8aa371735cafdb612bc36905))
+* **deps:** bump the npm_and_yarn group across 1 directory with 3 updates ([5015629](https://github.com/kidager/jacem.chaieb.me/commit/5015629c4ce59a83e15e6c2b19e8c9c569944697))
+
+
+### Dependencies
+
+* bump actions/configure-pages from 5.0.0 to 6.0.0 ([9be9cf4](https://github.com/kidager/jacem.chaieb.me/commit/9be9cf4d2d89d8bf2b2a6cde961f7ec207a34c3d))
+* bump actions/deploy-pages from 4.0.5 to 5.0.0 ([706e489](https://github.com/kidager/jacem.chaieb.me/commit/706e4896c880fee0cfae783687b06738214bed67))
+* bump actions/setup-node in the minor-versions group ([aacfc4a](https://github.com/kidager/jacem.chaieb.me/commit/aacfc4a21ee71f9f2c2940de808ddc829f7bcd9d))
+* bump actions/upload-pages-artifact from 4.0.0 to 5.0.0 ([7aecf09](https://github.com/kidager/jacem.chaieb.me/commit/7aecf097807ac13ff2d9e44cd0f2215a94582e09))
+* bump the minor-versions group across 1 directory with 7 updates ([bf241ab](https://github.com/kidager/jacem.chaieb.me/commit/bf241ab333a4e28c99d9403722ea0bf4b697bdf0))
+
 ## [1.7.15](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.14...v1.7.15) (2026-04-17)
 
 
