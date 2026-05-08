@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.7.17](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.16...v1.7.17) (2026-05-08)
+
+
+### Dependencies
+
+* bump googleapis/release-please-action from 4.4.1 to 5.0.0 ([3223fc8](https://github.com/kidager/jacem.chaieb.me/commit/3223fc8409f03c5b5bca0192bafb6804cdca87c7))
+* bump the minor-versions group across 1 directory with 5 updates ([7ee839e](https://github.com/kidager/jacem.chaieb.me/commit/7ee839e5096bd2168070de2eccf4b5711056cdd3))
+* bump typescript from 5.9.3 to 6.0.3 ([67beb16](https://github.com/kidager/jacem.chaieb.me/commit/67beb16570b103b4978711a20816755adb4abb4c))
+
 ## [1.7.16](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.15...v1.7.16) (2026-05-07)
 
 
