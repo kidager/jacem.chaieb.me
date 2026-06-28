@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.18](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.17...v1.7.18) (2026-06-28)
+
+
+### Dependencies
+
+* bump FirebaseExtended/action-hosting-deploy ([28f7907](https://github.com/kidager/jacem.chaieb.me/commit/28f79070fa613304930dd1c071beec904eb2a196))
+* bump the minor-versions group across 1 directory with 12 updates ([b8791e7](https://github.com/kidager/jacem.chaieb.me/commit/b8791e7031de2a7705a7230dff5a0b6ccb67b9c1))
+
 ## [1.7.17](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.16...v1.7.17) (2026-05-08)
 
 
