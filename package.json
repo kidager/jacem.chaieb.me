@@ -22,20 +22,20 @@
     "test:e2e:update": "playwright test --update-snapshots"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.5",
+    "@eslint/eslintrc": "^3.3.6",
     "@eslint/js": "^10.0.1",
     "@nuxtjs/color-mode": "^4.0.1",
     "@playwright/test": "^1.61.1",
     "@types/node": "^25.6.2",
-    "@types/three": "^0.185.0",
-    "@typescript-eslint/eslint-plugin": "^8.62.0",
-    "@typescript-eslint/parser": "^8.62.0",
-    "eslint": "^10.5.0",
+    "@types/three": "^0.185.1",
+    "@typescript-eslint/eslint-plugin": "^8.64.0",
+    "@typescript-eslint/parser": "^8.64.0",
+    "eslint": "^10.7.0",
     "eslint-plugin-compat": "^7.0.2",
     "eslint-plugin-deprecate": "^0.9.0",
     "eslint-plugin-vue": "^10.9.2",
     "globals": "^17.7.0",
-    "nuxt": "^4.4.8",
+    "nuxt": "^4.5.0",
     "sass": "^1.101.0",
     "stylelint": "^16.26.1",
     "stylelint-config-recommended-scss": "^16.0.2",
@@ -43,6 +43,6 @@
     "vue-eslint-parser": "^10.4.1"
   },
   "dependencies": {
-    "three": "^0.185.0"
+    "three": "^0.185.1"
   }
 }
