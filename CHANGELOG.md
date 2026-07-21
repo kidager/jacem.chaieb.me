@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.7.18](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.17...v1.7.18) (2026-07-21)
+
+
+### Dependencies
+
+* bump @types/node from 25.6.2 to 26.0.1 ([92e5569](https://github.com/kidager/jacem.chaieb.me/commit/92e5569c4ba61e7848503ad58dc5ab1bced8132f))
+* bump actions/cache from 5.0.5 to 6.1.0 ([a3c9092](https://github.com/kidager/jacem.chaieb.me/commit/a3c9092d239cdfc6446238dea6801234f02a8ea3))
+* bump actions/checkout from 6.0.2 to 7.0.1 ([e4ad0cd](https://github.com/kidager/jacem.chaieb.me/commit/e4ad0cdb470f7c050c1c415706a5da63eac138e0))
+* bump actions/setup-node from 6.4.0 to 7.0.0 ([dca1ceb](https://github.com/kidager/jacem.chaieb.me/commit/dca1ceb11013f01ab9dd1c689899f23983a0321b))
+* bump FirebaseExtended/action-hosting-deploy ([28f7907](https://github.com/kidager/jacem.chaieb.me/commit/28f79070fa613304930dd1c071beec904eb2a196))
+* bump the minor-versions group across 1 directory with 10 updates ([0a138d1](https://github.com/kidager/jacem.chaieb.me/commit/0a138d1d1ace0bf8248d989bd5c017098e2b042f))
+* bump the minor-versions group across 1 directory with 12 updates ([b8791e7](https://github.com/kidager/jacem.chaieb.me/commit/b8791e7031de2a7705a7230dff5a0b6ccb67b9c1))
+
 ## [1.7.17](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.16...v1.7.17) (2026-05-08)
 
 
