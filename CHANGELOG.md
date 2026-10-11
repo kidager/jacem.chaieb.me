@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.7.19](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.18...v1.7.19) (2026-10-11)
+
+
+### Dependencies
+
+* update dependencies, stylelint 17 and three 0.186 ([b441e39](https://github.com/kidager/jacem.chaieb.me/commit/b441e395f88e9a3b5d1c2a49590bde8fbe1754b7))
+
+
+### Tests
+
+* crop the Firefox light and dark icon baselines for Playwright 1.64 ([213972b](https://github.com/kidager/jacem.chaieb.me/commit/213972b1f6e60ba20d4d33abe0b3936a6bea9e6e))
+* update the Firefox system icon baselines for Playwright 1.64 ([56b91b9](https://github.com/kidager/jacem.chaieb.me/commit/56b91b933cb36e627b4d36eae961b53ba0d3fa17))
+
+
+### Build System
+
+* **docker:** move the dev image to Ubuntu 26.04 and Node 26 ([065b480](https://github.com/kidager/jacem.chaieb.me/commit/065b4804691a11052019aa1485f231dd48affe4d))
+
+
+### Continuous Integration
+
+* **preview:** deploy pull requests to Cloudflare Pages ([6678777](https://github.com/kidager/jacem.chaieb.me/commit/667877717f89cccc970acce52e6e02ba55684889))
+* **release:** deploy releases from kidager-bot to Cloudflare Pages ([3801221](https://github.com/kidager/jacem.chaieb.me/commit/38012217f7b72e8f36e785db02176b297d96b277))
+* run e2e tests on Node 26 and ubuntu-26.04 ([4d44074](https://github.com/kidager/jacem.chaieb.me/commit/4d44074bb09bd7e04950361fa2a46d5a2c577f19))
+
 ## [1.7.18](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.17...v1.7.18) (2026-07-21)
 
 
