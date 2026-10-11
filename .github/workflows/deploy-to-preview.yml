@@ -15,8 +15,9 @@ on:
 
 permissions:
   contents: read
-  pull-requests: write
   checks: write
+  # For the kidager[bot] token that posts the comments
+  id-token: write
 
 concurrency:
   group: preview-${{ github.event.pull_request.number || github.ref }}
@@ -72,10 +73,12 @@ jobs:
         with:
           name: preview-${{ github.run_id }}
           path: .
+      - id: bot
+        uses: kidager/actions/token@51640e6ee365e87a4b78b555dcaf6a0c5183e8a9 # v1.0.0
       - uses: FirebaseExtended/action-hosting-deploy@500ac625ca2dd40cbd15f7659af953801858032a # v0.11.0
         id: deployment-firebase
         with:
-          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          repoToken: ${{ steps.bot.outputs.token }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JACEM_CHAIEB }}
           projectId: jacem-chaieb
 
@@ -96,10 +99,14 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy ./.output/public --project-name=jacem-chaieb-me --branch=${{ github.head_ref || github.ref_name }} --commit-hash=${{ github.event.pull_request.head.sha || github.sha }}
+      - id: bot
+        if: github.event_name == 'pull_request'
+        uses: kidager/actions/token@51640e6ee365e87a4b78b555dcaf6a0c5183e8a9 # v1.0.0
       - name: Comment on PR with Cloudflare preview URL
         if: github.event_name == 'pull_request'
         uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3.0.5
         with:
+          GITHUB_TOKEN: ${{ steps.bot.outputs.token }}
           header: cloudflare-preview
           message: |
             ## ☁️ Cloudflare Pages Preview
