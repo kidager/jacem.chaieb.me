@@ -10,7 +10,7 @@ Personal website for Jacem Chaieb - a minimalist single-page site built with Nux
 - **Styling**: SCSS with CSS variables
 - **Color Mode**: `@nuxtjs/color-mode` (system/light/dark)
 - **Testing**: Playwright (visual + e2e)
-- **Deployment**: Cloudflare Pages + GitHub Pages (Firebase Hosting until the DNS moves)
+- **Deployment**: Cloudflare Pages, Firebase Hosting, GitHub Pages
 - **Package Manager**: Yarn
 
 ## Development Environment

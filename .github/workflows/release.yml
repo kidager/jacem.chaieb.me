@@ -65,7 +65,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.TOKEN }}
 
-  # Serves jacem.chaieb.me until the DNS moves to Cloudflare
   deploy-firebase:
     runs-on: ubuntu-26.04
     needs: build
