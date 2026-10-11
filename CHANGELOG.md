@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.7.21](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.20...v1.7.21) (2026-10-11)
+
+
+### Miscellaneous Chores
+
+* remove Firebase hosting ([c735abe](https://github.com/kidager/jacem.chaieb.me/commit/c735abea4bf5d1239a1de49c445132fba6ce03b1))
+
+
+### Continuous Integration
+
+* **preview:** post the preview comments as kidager[bot] ([1d46a7c](https://github.com/kidager/jacem.chaieb.me/commit/1d46a7ccc10e68ab71e105318b37f45ecf55bf96))
+
 ## [1.7.20](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.19...v1.7.20) (2026-10-11)
 
 
