@@ -2,15 +2,15 @@
 
 ## Project Overview
 
-Personal website for Jacem Chaieb - a minimalist single-page site built with Nuxt 3.
+Personal website for Jacem Chaieb - a minimalist single-page site built with Nuxt 4.
 
 ## Tech Stack
 
-- **Framework**: Nuxt 3 (Vue 3)
+- **Framework**: Nuxt 4 (Vue 3)
 - **Styling**: SCSS with CSS variables
 - **Color Mode**: `@nuxtjs/color-mode` (system/light/dark)
 - **Testing**: Playwright (visual + e2e)
-- **Deployment**: Firebase Hosting
+- **Deployment**: Cloudflare Pages + GitHub Pages (Firebase Hosting until the DNS moves)
 - **Package Manager**: Yarn
 
 ## Development Environment
@@ -110,5 +110,5 @@ Links use `jc.tn` shortlinks. The email link redirects to `mailto:` and cannot b
 
 ## Deployment
 
-- **Preview**: Auto-deploys PRs to Firebase preview channel
-- **Production**: Deploys on merge to main via release-please
+- **Preview**: Auto-deploys PRs to Cloudflare Pages (`jacem-chaieb-me` project) and a Firebase preview channel
+- **Production**: kidager-bot opens the release PR; merging it creates the release, which runs `.github/workflows/release.yml` (Cloudflare Pages, Firebase, GitHub Pages)
