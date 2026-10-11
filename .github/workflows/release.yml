@@ -49,10 +49,7 @@ jobs:
         id: upload-artifact
         with:
           name: ${{ env.ARTIFACT_NAME }}
-          path: |
-            ./.output/public/
-            firebase.json
-            .firebaserc
+          path: ./.output/public/
           if-no-files-found: error
       - run: |
           curl -sSL \
@@ -65,31 +62,12 @@ jobs:
         env:
           GH_TOKEN: ${{ github.TOKEN }}
 
-  deploy-firebase:
+  deploy-cloudflare:
     runs-on: ubuntu-26.04
     needs: build
     environment:
       name: production
       url: https://jacem.chaieb.me
-    steps:
-      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
-        with:
-          name: ${{ needs.build.outputs.artifact-name }}
-          path: ./artifacts/firebase
-      - uses: FirebaseExtended/action-hosting-deploy@500ac625ca2dd40cbd15f7659af953801858032a # v0.11.0
-        with:
-          repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JACEM_CHAIEB }}
-          projectId: jacem-chaieb
-          channelId: live
-          entryPoint: ./artifacts/firebase
-
-  deploy-cloudflare:
-    runs-on: ubuntu-26.04
-    needs: build
-    environment:
-      name: cloudflare
-      url: ${{ steps.deployment-cloudflare.outputs.deployment-url }}
     steps:
       - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
@@ -100,7 +78,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ./artifacts/cloudflare/.output/public --project-name=jacem-chaieb-me --branch=main --commit-hash=${{ github.sha }}
+          command: pages deploy ./artifacts/cloudflare --project-name=jacem-chaieb-me --branch=main --commit-hash=${{ github.sha }}
 
   build-github-pages:
     runs-on: ubuntu-26.04

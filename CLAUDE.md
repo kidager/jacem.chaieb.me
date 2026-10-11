@@ -10,7 +10,7 @@ Personal website for Jacem Chaieb - a minimalist single-page site built with Nux
 - **Styling**: SCSS with CSS variables
 - **Color Mode**: `@nuxtjs/color-mode` (system/light/dark)
 - **Testing**: Playwright (visual + e2e)
-- **Deployment**: Cloudflare Pages, Firebase Hosting, GitHub Pages
+- **Deployment**: Cloudflare Pages, GitHub Pages
 - **Package Manager**: Yarn
 
 ## Development Environment
@@ -110,5 +110,5 @@ Links use `jc.tn` shortlinks. The email link redirects to `mailto:` and cannot b
 
 ## Deployment
 
-- **Preview**: Auto-deploys PRs to Cloudflare Pages (`jacem-chaieb-me` project) and a Firebase preview channel
-- **Production**: kidager-bot opens the release PR; merging it creates the release, which runs `.github/workflows/release.yml` (Cloudflare Pages, Firebase, GitHub Pages)
+- **Preview**: Auto-deploys PRs to Cloudflare Pages (`jacem-chaieb-me` project)
+- **Production**: kidager-bot opens the release PR; merging it creates the release, which runs `.github/workflows/release.yml` (Cloudflare Pages, GitHub Pages)
