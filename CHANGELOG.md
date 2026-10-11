@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.20](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.19...v1.7.20) (2026-10-11)
+
+
+### Documentation
+
+* simplify deployment notes ([4ad4a30](https://github.com/kidager/jacem.chaieb.me/commit/4ad4a301c2b0577df235e2c2f72e533843e3666a))
+
 ## [1.7.19](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.18...v1.7.19) (2026-10-11)
 
 
