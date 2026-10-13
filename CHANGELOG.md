@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.22](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.21...v1.7.22) (2026-10-13)
+
+
+### Dependencies
+
+* bump js-yaml from 4.3.2 to 5.4.3 ([7f977fb](https://github.com/kidager/jacem.chaieb.me/commit/7f977fbebce3bfb2d6bee45279f086119accf754))
+
 ## [1.7.21](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.20...v1.7.21) (2026-10-11)
 
 
