@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.7.25](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.24...v1.7.25) (2026-11-01)
+
+
+### Dependencies
+
+* bump the minor-versions group across 1 directory with 5 updates ([cb1280a](https://github.com/kidager/jacem.chaieb.me/commit/cb1280aefc61624e47f727e88cb4aab49c8b7682))
+
+
+### Build System
+
+* **deps:** bump the npm_and_yarn group across 1 directory with 3 updates ([d42c249](https://github.com/kidager/jacem.chaieb.me/commit/d42c249d70f5b4583a9379188b6205f0fd3a1abb))
+
 ## [1.7.24](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.23...v1.7.24) (2026-10-20)
 
 
