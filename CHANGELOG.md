@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.26](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.25...v1.7.26) (2026-11-02)
+
+
+### Dependencies
+
+* bump glob from 13.0.6 to 14.0.3 ([e836f79](https://github.com/kidager/jacem.chaieb.me/commit/e836f79c987317b592b3525e59dcc070b7fe7fbe))
+* bump the minor-versions group with 4 updates ([b92c1b4](https://github.com/kidager/jacem.chaieb.me/commit/b92c1b45086b2a3bdef71c45106e6cbcf19a15be))
+
 ## [1.7.25](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.24...v1.7.25) (2026-11-01)
 
 
