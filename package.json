@@ -5,7 +5,7 @@
   "repository": "github:kidager/jacem.chaieb.me",
   "resolutions": {
     "js-yaml": "^5.5.0",
-    "glob": "^13.0.0"
+    "glob": "^14.0.3"
   },
   "scripts": {
     "build": "nuxt build",
@@ -43,7 +43,7 @@
     "vue-eslint-parser": "^10.4.1"
   },
   "dependencies": {
-    "glob": "^13.0.0",
+    "glob": "^14.0.3",
     "js-yaml": "^5.5.0",
     "three": "^0.186"
   }
