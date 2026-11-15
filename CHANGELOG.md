@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.7.28](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.27...v1.7.28) (2026-11-15)
+
+
+### Dependencies
+
+* bump the minor-versions group across 1 directory with 8 updates ([7a2d4c1](https://github.com/kidager/jacem.chaieb.me/commit/7a2d4c16ae7f4c2acb5a187a26c5e8b5bdb4dab9))
+* **npm:** bump all dependencies to latest, fix nuxt dev crash in CI ([7283e74](https://github.com/kidager/jacem.chaieb.me/commit/7283e74b3a4631c00349fe7c75fd3b6f49cd2b83))
+
+
+### Build System
+
+* **deps:** bump node-forge ([c2074cb](https://github.com/kidager/jacem.chaieb.me/commit/c2074cb7581f98ce1ca897a1989f9319dcc0f875))
+
 ## [1.7.27](https://github.com/kidager/jacem.chaieb.me/compare/v1.7.26...v1.7.27) (2026-11-05)
 
 
